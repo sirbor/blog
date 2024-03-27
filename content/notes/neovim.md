@@ -1,6 +1,6 @@
 ---
 title: Neovim Cheatsheet
-date: 2024-03-26
+date: 03-26-2024
 tags: ["evergreen","dev"]
 ---
 
