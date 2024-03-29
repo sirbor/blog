@@ -1,7 +1,7 @@
 ---
 title: Technical Screenings
 date: 03-12-2024
-tags: ["seed", "tech culture"]
+tags: ["Seed", "Culture"]
 ---
 
 

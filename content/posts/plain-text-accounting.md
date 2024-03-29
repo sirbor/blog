@@ -1,6 +1,7 @@
 --- 
 title: Plain Text Accounting
 date: 2022-11-27
+tags: ["Lifelogging"]
 ---
 
 I'm writing this as I go through the process of determining a personal
@@ -36,7 +37,7 @@ views.
 
 So, I had two distinct problems. I wanted easy access to my financial data and I
 wanted a good UI to explain my situation to me. So while trying to find a
-solution and reading more about [#lifeblogging](https://beepb00p.xyz/tags.html#lifelogging) I decided to make my own personal system. 
+solution and reading more about [lifelogging](https://beepb00p.xyz/tags.html#lifelogging) I decided to make my own personal system. 
 
 ## Research
 

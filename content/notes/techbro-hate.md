@@ -1,7 +1,7 @@
 ---
 title: 'Hate for "Tech bros"'
 date: 03-18-24
-tags: ["seed", "culture"]
+tags: ["Seed", "Culture"]
 ---
 
 ## Definition

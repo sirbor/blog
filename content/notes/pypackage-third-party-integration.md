@@ -1,7 +1,7 @@
 ---
 title: "Third-Party Integration in Python Packages"
 date: 03-13-2024
-tags: ['evergreen', 'pattern', 'dev',]
+tags: ['Evergreen', 'Pattern', 'Dev',]
 ---
 
 When creating a python package there are often instances where you want to

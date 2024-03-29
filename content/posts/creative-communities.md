@@ -1,7 +1,7 @@
 ---
 title: Creative Communities in Engineering
 date: 2022-07-15
-tags: ["creativity", "hackathons"]
+tags: ["Creativity", "Hackathons"]
 ---
 
 I first got into technology and engineering when I was introduced to the world

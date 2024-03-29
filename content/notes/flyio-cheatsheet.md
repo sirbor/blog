@@ -1,7 +1,7 @@
 ---
 title: Fly.io Cheatsheet
 date: 03-12-2024
-tags: ["evergreen", "pattern","dev"]
+tags: ["Evergreen", "Pattern","Dev"]
 ---
 
 > A collection of random notes and gotcha's I've found as I've been using

@@ -1,7 +1,7 @@
 ---
 title: Portable Identity
 date: 2024-03-25
-tags: ['seed', 'dev']
+tags: ['Seed', 'Dev']
 ---
 
 I've been thinking a lot about ways to create portable identities and some kind

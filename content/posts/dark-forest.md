@@ -1,7 +1,7 @@
 ---
 title: Diving into the Dark Forest
 date: 03-28-2024
-tags: ["Digital Gardens"]
+tags: ["Digital Gardens",  "Side Projects"]
 ---
 
 I have been fascinated for a long time with really cool websites that make full

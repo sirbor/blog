@@ -1,7 +1,7 @@
 ---
 title: "HTML & Web Animation"
 date: 03-26-2024
-tags: ["seed","dev"]
+tags: ["Seed","Dev"]
 ---
 
 

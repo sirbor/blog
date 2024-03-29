@@ -1,6 +1,7 @@
 ---
 title: How I Setup My Blog
 date: 2022-09-18
+tags: ["Blogging"]
 ---
 
 > The content in this post is now out of date. See [[colophon]] for an
