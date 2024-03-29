@@ -86,3 +86,9 @@ something, but for now I'm using bear. I like to use
 environment. 
 
 The e don't have everything, but it's enough for now.
+
+## Further Reading
+
+- [Some bloging myths](https://jvns.ca/blog/2023/06/05/some-blogging-myths/)
+- [Blogging vs Blog Setups](https://rakhim.org/honestly-undefined/19/)
+- [Why You Should Start a Blog Right Now](https://guzey.com/personal/why-have-a-blog/)

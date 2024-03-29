@@ -1,10 +1,6 @@
 ---
 title: Garden
-link: garden
-layout: page.njk
-published_date: 2022-04-23
-canonical_url: http://www.vineeth.io/garden
-meta_description: Second brain record of what I'm currently thinking about
+description: Second brain record of what I'm currently thinking about
 ---
 
 This page is inspired by [Karlicoss's exobrain](https://beepb00p.xyz/exobrain/)
@@ -13,11 +9,10 @@ I want to make a better record of who I am, and the content I am interacting
 with. Eventually want to consolidate my bookmarks to make something like
 [Nikiv.dev's Wiki](https://wiki.nikiv.dev/)
 
+Over the next few weeks I'll start revamping this part of the site in accordance
+with [[dark forest|Diving into the Dark Forest]]
+
 ---
-
-# Reading
-
-Currently reading: Ghost in the Wires
 
 # Want to learn
 
@@ -104,6 +99,25 @@ protocol
 - Also interested in this domain from the space of networking protocols. For the
 most part, the different protocols I've seen are fundamentally based on TCP and UDP.
 So how can you go about designing your own protocol for specific needs?
+
+## Thermodynamic Computing
+
+Since I've gotten more active on Twitter over the last year I've become a bit
+familiarized with [Extropic](https://www.extropic.ai/), and keep struggling to
+understand what the heck they are talking about. 
+
+I can't tell if it's a grift, if it's real, or even really what the value of
+what they are talking about is. That said [Normal Computing](https://normalcomputing.ai)
+is apparently working on similar stuff I usually find their posts delightful and
+well written. So I want to spend some time diving into that and understanding
+what it really is and how it works. 
+
+- [Thermodynamic Computing Beyond Moore’s Law and the von Neumann Bottleneck](https://knowm.org/thermodynamic-computing-physik/)
+- [Probablistic Computing with P-bits](https://arxiv.org/abs/2108.09836)
+- [A First Demonstration of Thermodynamic Matrix Inversion](https://blog.normalcomputing.ai/posts/2023-11-09-thermodynamic-inversion/thermo-inversion.html)
+- [Thermodynamic Linear Algebra](https://arxiv.org/abs/2308.05660)
+- [Thermodynamic AI: intelligence from nature](https://normalcomputing.substack.com/p/thermodynamic-ai-intelligence-from)
+- [Extropic Litepaper](https://www.extropic.ai/future)
 
 # Questions I want to explore
 

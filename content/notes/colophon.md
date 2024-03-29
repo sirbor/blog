@@ -45,3 +45,9 @@ as well
 [tags/pattern | Patterns] are repeatable design patterns that I've found helpful
 when working on projects are can be reference sheets for different tools and
 platforms. These generally will also be evergreen notes.
+
+## Miscellaneous Links and Ideas
+
+- [Some bloging myths](https://jvns.ca/blog/2023/06/05/some-blogging-myths/)
+- [Blogging vs Blog Setups](https://rakhim.org/honestly-undefined/19/)
+- [Why You Should Start a Blog Right Now](https://guzey.com/personal/why-have-a-blog/)
