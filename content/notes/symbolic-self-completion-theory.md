@@ -14,5 +14,13 @@ have that keeps growing along with my [[dark forest|bookmarks]]. I want to be
 public and talk about the things I'm working on, but I don't want to hack myself
 into just getting the dopamine hits and never actually acting on my ideas. 
 
+A similar worry is that the [[colophon|seed, budding, evergreen]] pipeline for
+notes and posts may suffer from the same core conceit. Writing a stub that
+becomes a [[tags/seed|seed]] gives me enough satisfaction that I never graduate it to
+[[tags/evergreen|evergreen]]. In some cases it may just be that other things are
+more pressing or top of mind, but I can't help but worry about that. 
+
+Even this note is a seed right now. I suppose we'll see if I'm able to expand on
+my thoughts more
 
 

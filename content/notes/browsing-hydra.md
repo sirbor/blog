@@ -7,7 +7,7 @@ tags: ["Evergreen"]
 ![[assets/browsing-hydra.webp]]
 
 > The phenomenon of trying to clear your browser tabs, but for every tab you go
-> through you end opening atleast one new tab. 
+> through you end opening at least one new tab. 
 
 A beast that I fight on the daily, and a big factor in my [[dark forest| descent into the Dark
 Forest]]
