@@ -35,3 +35,13 @@ Processing always felt like it had feature parity to [Löve2D](https://love2d.or
 Löve2D as well.
 
 [Shadeup](https://shadeup.dev/) — A language for writing shaders for WebGPU
+
+There's also some interesting tools for making designs just through CSS
+
+Some other aggregations and lists
+
+- [CSS Doodle](https://css-doodle.com) — One of the simpler tools for creating
+  doodles for css backgrounds.
+
+The [Sparks Joy](https://github.com/swyxio/spark-joy) GitHub project has tons of
+design tools and sources of inspiration
