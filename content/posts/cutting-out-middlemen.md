@@ -1,7 +1,7 @@
 --- 
 title: Cutting Out The Middlemen
 date: 2023-02-13
-tags: ["Side Projects"]
+tags: ["side projects"]
 ---
 
 <!-- Excerpt Start -->

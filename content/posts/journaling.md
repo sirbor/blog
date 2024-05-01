@@ -1,7 +1,7 @@
 --- 
 title: Journaling with Neovim to Manage my Mind
 date: 2023-12-21
-tags: ["Mental Health"]
+tags: ["mental health"]
 ---
 
 For those of you who know me one of the things I'm open about is my

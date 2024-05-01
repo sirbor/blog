@@ -1,7 +1,7 @@
 ---
 title: Neovim Cheatsheet
 date: 03-26-2024
-tags: ["Evergreen","Dev"]
+tags: ["evergreen","dev"]
 ---
 
 > This is a cheat sheet for Neovim to track several useful commands

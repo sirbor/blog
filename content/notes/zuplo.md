@@ -1,7 +1,7 @@
 ---
 title: Zuplo
 date: 2024-03-21
-tags: ['Budding', 'Review', 'Dev']
+tags: ['budding', 'dev', 'review']
 ---
 
 > This page covers my notes as I started using and learning how to use the

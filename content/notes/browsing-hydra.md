@@ -1,7 +1,7 @@
 ---
 title: "The Browsing Hydra"
 date: 03-28-2024
-tags: ["Evergreen"]
+tags: ["evergreen"]
 ---
 
 ![[assets/browsing-hydra.webp]]

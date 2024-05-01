@@ -1,7 +1,7 @@
 ---
 title: Colophon of Vineeth Voruganti
 date: 03-18-24
-tags: ['Evergreen', 'Blogging']
+tags: ['evergreen', 'blogging']
 ---
 
 > A colophon is a nobby designer word for 'how this site was made'

@@ -1,7 +1,7 @@
 ---
 title: "Skeumorphic Design in AI"
 date: 04-02-2024
-tags: ["Seed", "AI"]
+tags: ["seed", "AI"]
 ---
 
 I've been thinking a lot about applications that make full utilization of their

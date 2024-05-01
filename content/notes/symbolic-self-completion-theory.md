@@ -1,7 +1,7 @@
 ---
 title: "Symbolic Self Completion Theory"
 date: 03-28-2024
-tags: ["Seed","Mental Health"]
+tags: ["seed","mental health"]
 ---
 
 > [Wikipedia](https://en.wikipedia.org/wiki/Symbolic_self-completion_theory)

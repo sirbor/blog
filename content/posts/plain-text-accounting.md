@@ -1,7 +1,7 @@
 --- 
 title: Plain Text Accounting
 date: 2022-11-27
-tags: ["Lifelogging"]
+tags: ["lifelogging"]
 ---
 
 I'm writing this as I go through the process of determining a personal

@@ -1,7 +1,7 @@
 ---
 title: Blogs I Like
 date: 03-12-24
-tags: ['Evergreen', 'Blogging']
+tags: ['evergreen', 'blogging']
 ---
 
 A collection of technical blogs and personal websites I really enjoy browsing. 

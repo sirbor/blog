@@ -1,7 +1,7 @@
 --- 
 title: Why I Blog 
 date: 2022-07-13
-tags: ["Blogging"]
+tags: ["blogging"]
 ---
 
 ## Goals
