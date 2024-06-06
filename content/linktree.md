@@ -15,6 +15,7 @@ date: 2024-06-06
 
 - [Website](https://plasticlabs.ai)
 - [Twitter/X](https://twitter.com/plastic_labs)
+- [Discord Community](https://discord.gg/plastic-labs)
 - [GitHub](https://github.com/plastic-labs)
 - [Blog](https://blog.plasticlabs.ai)
 
