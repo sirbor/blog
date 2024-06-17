@@ -19,9 +19,13 @@ li.section-li {
       }
     }
 
+    & > .desc {
+      margin-left: 1rem;
+    }
+
     & > .desc > h3 > a {
       background-color: transparent;
-      margin-left: 1rem;
+      /* margin-left: 1rem; */
     }
 
     & > .meta {
