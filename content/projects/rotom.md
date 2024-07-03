@@ -1,5 +1,6 @@
 ---
 title: Rotom — A dead simple link validator
+description: A dead simple link validator
 date: 2024-03-15
 ---
 

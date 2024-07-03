@@ -36,7 +36,7 @@ export const defaultContentPageLayout: PageLayout = {
         title: "Recent Posts",
         limit: 3,
         filter: (f) =>
-          f.slug!.startsWith("posts/") && !f.frontmatter?.noindex,
+          f.slug!.startsWith("posts/") && !f.frontmatter?.noindex && f.frontmatter?.title != "Posts",
         linkToMore: "posts/" as SimpleSlug,
       }),
     ),

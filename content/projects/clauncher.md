@@ -1,5 +1,6 @@
 ---
-title: Clauncher - Simple Web Scraper
+title: Clauncher — Simple Web Scraper
+description: Clauncher a simple web scraper
 date: 2024-03-11
 ---
 
