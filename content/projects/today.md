@@ -4,7 +4,7 @@ description: A plugin for managing daily notes with Neovim
 date: 2024.07.03
 ---
 
-This project can be found on [GitHub](https://github.com/VVoruganti/today.nvim)
+> This project can be found on [GitHub](https://github.com/VVoruganti/today.nvim)
 
 The project was inspired by my work in [[ journaling | journaling with neovim]]
 where I use neovim as my go writing environment. Not just for work and for

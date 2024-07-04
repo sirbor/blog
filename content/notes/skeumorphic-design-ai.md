@@ -12,7 +12,7 @@ it, so they took analogies from what they already knew — documents. A lot of t
 early web was basically just porting paper documents to a digital screen. This
 led to the rise of word processing tools like Microsoft Word. 
 
-Maggie Appleton discusses this in her [Metaphiors We Web By](https://maggieappleton.com/metaphors-web)
+Maggie Appleton discusses this in her [Metaphors We Web By](https://maggieappleton.com/metaphors-web)
 essay. Early on in my usage of computers this was pretty the same. Early
 computer applications classes mainly just taught how to use little quirks of
 word or excel and didn't venture much more. This was all fine, but it doesn't
@@ -38,8 +38,8 @@ physics classes when we would use these [pHet Simulations](https://phet.colorado
 However, there are countless examples of these online. 
 
 - This teardown of how a [mechanical watch works](https://ciechanow.ski/mechanical-watch/)
-- [3blue1brown's]() match explanations that use animation to visualize concepts
-- This nuclear bomb simulator
+- [3blue1brown's](https://www.3blue1brown.com/) match explanations that use animation to visualize concepts
+- This nuclear [bomb simulator](https://nuclearsecrecy.com/nukemap/)
 
 It goes on. They're not all super easy to find as I kind of alluded to in
 [[dark forest|the dark forest]].

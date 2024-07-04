@@ -13,7 +13,7 @@ project. With theming inspired by [moonscript](https://moonscript.org) and the
 ## Techniques
 
 The authoring of content is done using
-[LunarVim](https://github.com/LunarVim/LunarVim) on the [Warp
+[Neovim](https://neovim.io) on the [Warp
 Terminal](https://warp.dev)
 
 

@@ -4,7 +4,7 @@ description: A dead simple link validator
 date: 2024-03-15
 ---
 
-this project is can be found on [GitHub](https://github.com/VVoruganti/rotom)
+> this project is can be found on [GitHub](https://github.com/VVoruganti/rotom)
 
 The purpose of this project was to create a small script that can find all
 the links in a directory using `grep` and checking that they are still valid

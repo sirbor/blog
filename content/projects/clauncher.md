@@ -4,7 +4,7 @@ description: Clauncher a simple web scraper
 date: 2024-03-11
 ---
 
-this project is can be found on [GitHub](https://github.com/VVoruganti/clauncher)
+> this project is can be found on [GitHub](https://github.com/VVoruganti/clauncher)
 
 The main purpose was to create a simple scraper that made use of the same
 functionality as a browser's reader mode. It's a feature in most modern
