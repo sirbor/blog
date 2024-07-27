@@ -100,8 +100,9 @@ and their internal debates, but I could see the same kind of elitism occurring.
 - Physical ink artists thinking digital art is not real 
 - Portrait painters claiming photography is not real art
 
-> NOTE: If this isn't the case someone DM me let me know. I may just be too used
-> to the toxicity in the tech community and assuming other communities have
+> [!Warning]
+> If this isn't the case someone DM me let me know. I may just be too used
+> to the toxicity in the tech community and am assuming other communities have
 > similar issues. 
 
 And that brings us to 
@@ -121,6 +122,11 @@ I really do think there is a certain "art" to prompting AI models and getting
 them to produce nice outputs. Especially with certain models it can be pretty
 hard to actually get them to produce something usable. This is the case with
 language models and imagegen models.
+
+> [!Note] 
+> When I say "art" here I mean it in the sense that it's not an exact
+> science, similar to how you can say there's an art to negotiating or an art to
+> teaching. 
 
 I've seen the text case with things like [YouSim](https://yousim.ai) and
 [Terminals of Truth](https://twitter.com/truth_terminal). You have to really
