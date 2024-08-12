@@ -1,7 +1,7 @@
 ---
 title: Notes on Engineering Culture
 date: 2024.08.10
-tags: ["culture", "dev", "seed"]
+tags: ["startups", "culture", "dev", "seed"]
 ---
 
 Been thinking a lot about how to organize an engineering team, run a team, and
@@ -177,9 +177,49 @@ Don't waste peoples time with excess process and focus on "just doing things."
 
 > https://www.youtube.com/watch?v=aYtAdWASGzg
 
+### Praetorian New Hire Survival Guide
+
 > https://www.praetorian.com/wp-content/uploads/2024/06/2024-New-Hire-Survival-Guide.pdf
 
+Like the idea of a new hire survival guide in general. Very healthy practice and
+evergreen note to keep building towards. A good exercise could be for new hires
+to contribute to the new hire survival guide at the end of their first week. 
+
+First week goals, similar to what I saw at Microsoft with the goal for first
+commit or PR by the end of the week. 
+
+Main focus in this is the culture page and the 11 principles. 
+
+1. Default to open 
+2. Orient to action
+3. Lean into discomfort
+4. Be Humble
+5. Yes, and
+6. Follow your passion
+7. Put the customer first
+8. Make craters
+9. Performance matters
+10. Try harder
+11. Struggle and celebrate together
+
+All bangers. Really nothing in here that I would push back or not want to
+instill in my own organization. Open and clear communication, being a small team
+that understands we don't know everything but we can figure it out and make
+strides, putting the customer first and being obsessed, and remembering that it
+is a team effort. 
+
+### Work Life Harmony at Praetorian
+
 > https://www.praetorian.com/blog/work-life-harmony-at-praetorian/
+
+Key takeaway is that as a team we should be understanding of each other. A
+startup makes it harder to have a distinct work life balance with a strict
+schedule, but the advantage of being small is we can be flexible. 
+
+Work the hours you need to, do what you need to to stay healthy and manage your
+life, but let's get stuff done. 
+
+None of us are trying to be asshole's and we should be here for each other.
 
 > https://www.benkuhn.net/newmgr/
 
@@ -231,13 +271,46 @@ Don't waste peoples time with excess process and focus on "just doing things."
 
 > https://www.benkuhn.net/weeklyessays/
 
+### There's No Speed Limit
+
 > https://sive.rs/kimo
 
-> https://sive.rs/blog
+Select quotes
+
+- "If you’re more driven than most people, you can do way more than anyone expects"
+
+Really just a concept/idea I want to our team to have instilled. Don't get
+caught up with arbitrary prequisites or credentials and be driven enough to
+realize we can figure out and learn whatever we need. 
+
+Have the agency and drive to do what you want and not get blocked by mental
+blocks. Be ambitious and have a voracious appetite to grow and learn. 
+
+### Here’s how to live: Create.
 
 > https://sive.rs/htl23
 
+Love this idea here. We want creators not consumers. What matters is what you
+can do and put out there. Whether that be ideas or products or whatever put it
+out there. 
+
+Bias towards action and putting stuff out. This will make it easier to
+communicate your value from a career perspective and always keep the
+company/team moving forward. Locking up ideas in your head forever makes it
+harder for people to know what you are doing and can just cause confusion. 
+
+Be transparent and act. Another quote I want to highlight here is: "Don’t wait for inspiration.
+Inspiration will never make the first move." I've found this to be a huge unlock
+in my career. You get ideas as you do stuff, you can't just wait. It's a similar
+thing with startups. You shouldn't just think of an idea then make a startup, do
+stuff and you'll see the problems that are worth solving. 
+
+### Here’s how to live: Love.
+
 > https://sive.rs/htl22
+
+My main takeaway here is have passion. Meet things where they are, love to
+learn, love the craft, and be put yourself into your work. 
 
 > https://sive.rs/aos
 
