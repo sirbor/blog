@@ -36,11 +36,17 @@ about too. I want to be very realistic there, but also talk about what I think
 is healthy and what isn't. That's something I feel passionate enough about to
 focus on.
 
+Another thing to mention is processes/practices that we'd want in the team sort
+of prescriptively. 
+- Kudos meetings
+- Regular friction log cadence
+- Post mortems
+- Meeting cadence
+- Blog post first
+- 80/20 time
+
 ---
 
-> [Tedinski — Fast Feedback from Tests](https://www.tedinski.com/2019/03/11/fast-feedback-from-tests.html)
-
-> https://programmingisterrible.com/
 
 ### On Technical Deb: Shoveling Forward
 
@@ -298,33 +304,157 @@ What not to do:
 
 Let your manager do their job and just work to support your team members.
 
+### How do you decide what to work on?
+
 > https://jvns.ca/blog/2016/08/16/how-do-you-work-on-something-important/
+
+Have a clear goal to work towards and be thoughtful about the work you need to
+do. Will it further this goal?
+
+Understand that there is no "right thing". Not everything will be equally
+impactful, but that's ok. Some things may be wasted work or a dead end, but
+doesn't mean the work was a complete waste. Speed run these failure modes and
+move on.
+
+⭐️ Believe in the possibility of completing what you are working. Part of this
+is having an ambitious mindset, but also be careful to scope things well so it
+can be done in a reasonable time. Scope creep is real and shouldn't just be
+beaten through "hustling". Perserverance is still important though. You'll
+encounter unexpected complications and delays and you just need to push through.
+It's a hard balance of scoping things and managing unexpected growth. 
+
+### Questions I'm asking in interviews
 
 > https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/
 
-> https://jvns.ca/blog/2013/12/28/coding-strategies/
+These are questions an interviee candidate would want to ask a company and thus
+should be things I take the time to think through and know the answers too. 
 
-> https://jvns.ca/blog/2014/02/03/sounding-confident-in-interviews/
+- [ ] Make a full FAQ answer list for these questions
 
-> https://jvns.ca/blog/2014/01/16/what-my-technical-interviews-have-looked-like/
+### On Being A Senior Engineer
 
-> https://jvns.ca/blog/2014/04/08/growing/
+> https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/
+
+- **Maturity** is a big key quality of a senior engineer
+- technical skills are an obvious essential, but not sufficient aspect
+- Seek constructive criticism of their designs
+- Understand the non-technical areas of how they are perceived
+    - Understand that no one wants to work with an asshole and work to not be
+    like that
+- Don't shy away from making estimates and are always trying to get better at
+it.
+    - You need to be comfortable working with some nonzero amount of uncertainty
+    and risk
+- Understand that all of their assigned work won't be the most glamorous stuff
+- They should ift the skills and expertise of those around them
+- Understand the difference between mentorship and sponsorship and work towards
+the latter.
+    - Instead of focusing on helping underrepresented/underprivileged members of
+    the team to develop skills work on providing them more opportunities to
+    display their skills.
+- Be explicit about the trade-offs when making judgements/decisions
+- Be empathetic
+- Don't make empty complaints
+- Are aware of cognitive biases
+
+References the [The Ten Commandments of Egoless Programming](https://gist.github.com/gdumitrescu/5865375)
+
+### Making Small Culture Changes
 
 > https://jvns.ca/blog/2017/04/16/making-small-culture-changes/
 
+A lot of different good ideas, but my biggest takeaway for the context of these
+notes is that culture can as much be a bottom up thing as a top down thing. 
+
+⭐️ Encourage people to be the change they want to see and initiate cultural
+changes themselves
+
+### How Do You Make An Awesome Team?
+
 > https://jvns.ca/blog/2017/01/13/how-do-you-make-an-awesome-team/
+
+- Work in public (public channels)
+    - This was a huge thing at Hexlabs and became an indispensable source of
+    information to find DRIs and other things
+- Talk like you might be wrong in discussions
+    - Sorta of a how to make friends and influence people approch. But generally
+      be humble and be ok with being wrong. I think there's a balance here, you
+      don't want to get steam rolled if you actually believe in your opinion.
+- Bottom up cultural changes
+
+### Senior engineering & fantasy heroes
 
 > https://jvns.ca/blog/2015/03/28/senior-engineering-and-fantasy-heroes/
 
-> https://jvns.ca/blog/2014/12/29/on-reading-the-source-code-not-the-docs/
+- The fortune teller: can predict future challenges and obstacles early on
+saving a lot of time
+- The cattle wrangler: Great at standardizing and working with disparate
+teams/processes/code repositories.
+- the spring of knowledge: Just knows every arbitrary and detailed fact about
+something off the top of their head.
+- The gardener: Great at managing technical debt and finding efficient and
+reasonable ways to fix it along with knowing how to design to mitigate it in the
+future. 
+
+### Learning at Work
 
 > https://jvns.ca/blog/2017/08/06/learning-at-work/
 
+In general this is a aspect of the team that I want. I want people to be
+voracious learners who are greedy for knowledge. I want them to keep their hand
+on the dial and keep up with the latest practices, news, and technologies.
+
+Methods:
+- Blog posts
+- Conferences
+- Books
+- talks
+- Build projects and learn from them
+- Watch senior people operate
+- Read every pull request
+- Read source code
+- Follow up on bugs you couldn't figure out and gave to someone else/escalated
+
+### Asking Questions
+
 > https://jvns.ca/blog/2016/08/31/asking-questions/
 
-> https://stripe.com/en-lt/jobs/culture#how-we-work
+A good framework for different types of questions. Better in the appendix will
+replicate there. In general being curious and inquisitive is a strong trait in a
+team member. A desire to understand what is happening around them. 
+
+### What I Learned at Stripe
 
 > https://steinkamp.us/posts/2022-11-10-what-i-learned-at-stripe
+
+Stripe is often touted as having one of the best cultures and most talented
+engineering teams in the industry. So investigating them should give more
+insights into practices to copy.
+
+- Gratitude built-in
+    - Public shoutout channels
+    - Propagate to their managers
+    - Friday "Mad Props" meetings (similar to the Praetorian celebrations
+    meeting)
+- The DRI (Directly Responsible Individual)
+    - Each task and project in the team has a single person who is responsible
+    for that thing in that moment
+- Learning in public through shared documents and detailed design reviews
+- Shipped emails
+    - building a culture of celebrating shipping. 
+    - similar to the work from a Press Release
+        - Not always but apparently projects can often start from this
+- ⭐️ Deadlines have a confidence score associated with them
+- Direct user feedback is highly coveted and desired by engineers.
+- ⭐️ Friction Logs
+    - Dog food the product and write down every point of friction you
+    encountered. Use that as actionable feedback to improve the product
+- Open data warehouse
+- Actually use CICD for testing and QA
+- Big investments in dev tooling pay multiples
+    - Huge hiring incentive too (people love this)
+    - Gives your team super powers
 
 ### The 37 Signals
 
@@ -435,49 +565,6 @@ life, but let's get stuff done.
 
 None of us are trying to be asshole's and we should be here for each other.
 
-> https://www.benkuhn.net/newmgr/
-
-> https://news.ycombinator.com/item?id=19422833
-
-> https://news.ycombinator.com/item?id=7642404
-
-> https://news.ycombinator.com/item?id=24721118
-
-> https://www.benkuhn.net/overconfidence/
-
-> https://www.benkuhn.net/outliers/
-
-> https://www.paulgraham.com/swan.html
-
-> https://danluu.com/
-
-> https://danluu.com/talent/
-
-> https://danluu.com/learn-what/
-
-> https://danluu.com/look-stupid/
-
-> https://danluu.com/culture/
-
-> https://danluu.com/people-matter/
-
-> https://danluu.com/corp-eng-blogs/
-
-> https://danluu.com/algorithms-interviews/
-
-> https://danluu.com/programmer-moneyball/
-
-> https://thezvi.wordpress.com/2019/05/30/quotes-from-moral-mazes/
-
-> https://danluu.com/p95-skill/
-
-> https://danluu.com/startup-options/
-
-> https://danluu.com/startup-tradeoffs/
-
-> https://www.benkuhn.net/abyss/#fnref:1
-
-> https://www.benkuhn.net/leadcats/
 
 ### There's No Speed Limit
 
@@ -523,23 +610,6 @@ Theory ]]
 My main takeaway here is have passion. Meet things where they are, love to
 learn, love the craft, and be put yourself into your work. 
 
-> https://sive.rs/evers
-
-> https://sive.rs/res
-
-> https://autotranslucence.wordpress.com/2018/03/30/becoming-a-magician/
-
-> https://mindingourway.com/rest-in-motion/
-
-> https://www.benkuhn.net/progessays/
-
-> https://blog.pragmaticengineer.com/the-product-minded-engineer/
-
-> https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to
-
-> https://www.benkuhn.net/bigco/
-
-> https://stripe.com/sessions/2024/building-a-culture-of-system-reliability
 
 ### Stripe Operating Principles
 
@@ -582,10 +652,288 @@ Other slogans I love
 * Really, really, really care
     * You want a culture where caring helps and people are rewarded for it.
 
+### Some mistakes I made as a new manager
+
+> https://www.benkuhn.net/newmgr/
+
+- Managing doesn't hav ethe same fast feedback loop and can be riddled with more
+  uncertainty and angst.
+  - Be honest about your feelings
+  - Ask for specific feedback
+- Remember what the critical task for your role is and focus on that
+  - Could be writing, could be coordination (linear), could be code
+  - You won't have the bandwidth to do everything perfectly so understand what
+  is the priority
+- Choose the amount of management you give for a person on a case by case basis
+  - "Manage projects according to the owner’s level of task-relevant maturity"
+  - "People with low task-relevant maturity appreciate some amount of
+  micromanagement (if they’re self-aware and you’re nice about it)"
+- You will be faced with many emotionally draining hard questions where there's
+  no clear right answer. You need to develop this skill and learn not to
+  procrastinate on the answers. 
+- Debt builds up with managers just like it does with coding.
+  - Build in slack and time to address it. 
+  - Actually prioritize and put things below the cut line.
+- If you have anxiety about your impact on an individual the best thing to do is
+  just have an open dialogue and resolve it with them. 
+
+### Look Stupid
+
+> https://danluu.com/look-stupid/
+
+Not so much as advice, but a general sentiment I agree with is that you should
+be willing to look stupid and be ok with it. We're here to grow and we don't all
+have the answers. 
+
+### Culture Matters
+
+> https://danluu.com/culture/
+
+The post more talks about the importance of culture over incetives and processes
+for driving action. Just echoes why I want to think through the type of culture
+I want.
+
+- The culture wasn't as much a function of hiring as much as it was the
+onboarding process. That's the real point where you can mold people around a
+culture (atleast in the more junior roles)
+- With more senior hires there is a real risk of them impacting the culture and
+there should be scrutiny for it. 
+
+### How (some) good corporate engineering blogs are written
+
+> https://danluu.com/corp-eng-blogs/
+
+I want blogging and being public to be a big part of the culture at Plastic. So
+interested in the thoughts around this. 
+
+Common processes
+- Easy approval process, not many approvals necessary
+- Few or no non-engineering approvals required
+- Implicit or explicit fast SLO on approvals
+- Approval/editing process mainly makes posts more compelling to engineers
+- Direct, high-level (co-founder, C-level, or VP-level) support for keeping blog
+process lightweight
+
+Mainly remove barriers to writing content and actually value it. 
+
+You don't want to actively stop people from putting interesting stuff into the
+blog posts. 
+
+### 95%-ile isn't that good
+
+> https://danluu.com/p95-skill/
+
+An ambitious and greedy mindset I want in our engineers. They should feel like
+they are capable of quickly learning and getting very very good at something
+they are unfamiliar with. 
+
+Understand that if they focus they can quickly get to the top of their field and
+that the secret to life it that no one knows what they're doing. 
+
+### Staring into the abyss as a core life skill
+
+> https://www.benkuhn.net/abyss/
+
+Characterizes the act as thinking reasonably about things that are uncomfortable
+to contemplate. Often these can be emotionally draining an deasy to
+procrastinate on. 
+
+This is a skill leaders are going to have to keep getting better at and this pot
+just does a godo job identifying and arguing for it. 
+
+### Be Impatient
+
+> https://www.benkuhn.net/impatient/
+
+Another aspect I want to instill in the team. Be greedy and be impatient. We
+should want to ship as fast as possible and move as fast as impossible. Strive
+to get rid of blockers as fast as possible. 
+
+This doesn't mean cut corners, but don't waste time doing useless things that
+aren't moving you forward.
+
+### Categories of leadership on technical teams
+
+> https://www.benkuhn.net/leadcats/
+
+- Overall direction
+  - ensuring the team is headed in the right direction
+  - Set the team's mission, vision, charter
+  - Choose goals, plans, and roadmap
+  - prioritize different potential projects
+  - communicate that to the team
+- People management
+  - Coaching people to improve and grow in their careers
+  - Design and oversee hiring process
+  - Communicate and evaluate performance expectations
+- Project Management
+  - Setting operating cadence
+  - Splitting up work between team and delegating
+  - Keeping work visible and communcated between different parties
+  - POC for the rest of the company
+- Technical leadership 
+  - Set tech direction
+  - Review execution against that direction
+  - Mentor ICs
+  - Doing some level of IC work yourself
+
+### What it means to be resourceful
+
+> https://sive.rs/res
+
+An annecdote about how to be subversive and resourceful. Being subversive is in
+the DNA and roots of Plastic and something we really want to emphasize.
+Especially at this stage we may not always have the most resources but we find
+ways to have creative solutions. 
+
+⭐️ Resourcefulness and Subversiveness
+
+### Becoming a magician
+
+> https://autotranslucence.wordpress.com/2018/03/30/becoming-a-magician/
+
+My interest in this post largely comes from the desire to have highly ambitious
+people with a desire to grow and ones that don't necessarily want to take the
+traditional roads to get there. 
+
+'describe the version of you that seems impossible right now'
+
+Reminds a lot of a quote I think Elon said of think about your 5 year goal and
+try to get to it by the end of the week. You'll fail, but you'll be hell of a
+lot closer than if you did nothing. 
+
+Being impatient to get to your goals and working to get to them are really key
+for me. 
+
+### Rest in motion
+
+> https://mindingourway.com/rest-in-motion/
+
+A good model I think about for managing work and life and the relationship to
+work. Having work and rest both be integral never ending games that you can keep
+growing into. With that in mind you can also position both as necessary and both
+are things you need to do. One can't exist without the other and the same
+expectation should be in the team. 
+
+### The Product Minded Engineer
+
+> https://blog.pragmaticengineer.com/the-product-minded-engineer/
+
+An engineer that would likely make a good PM if they gave up the joy of
+engineering.
+
+By focusing on customer obsessions and user-centric design, having product
+minded engineers is going to be critical to the success of our team. 
+
+I think this idea might be encapsulated well in customer obsession, but this
+post presents a good framework for how to actually do it. 
+
+Traits:
+
+- Proactive with product ideas/opinions
+    - coming from a place of genuine interest and care. Not just status
+    signalling or trying to get credit
+- Data driven
+    - Look for feedback and data about the user, don't just have decisions based
+    on their own vibes or random opinions. 
+- Keen interest in the "why"?
+    - Looking to understand decisions. This is a culture that will need to exist
+    with PMs as well. They need to be able to back up and explain decisions. 
+- Strong communicators and good relationship with non-engineers
+    - Have scope and visibility outside of engineering
+- Offering product/engineering tradeoffs upfront
+    - Similar to some of th eposts on what make a good senior engineer
+- Quick product validation cycles
+    - Seek feedback early and work fast to validate ideas
+    - Bias for action, just do it and check don't think excessively
+- End-to-end product feature ownership
+    - Engage after the development is done
+    - steak in upkeep and results
+
+Being multidisciplinary and customer obsessed will contribute largely to this
+culture.
+
+### Write code that is easy to delete, not easy to extend
+
+> https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to
+
+A good philosophy for preventing technical debt and presumptuous optimizations.
+If we want to be impatient and move fast, quickly validate our ideas and move
+forward, this is a mental model to adopt to prevent it from shooting ourselves
+in the foot.
+
+### We Hire Folks Who Work Like Founders
+
+> https://wellfound.com/blog/we-hire-folks-who-work-like-founders
+
+5 employer principles
+- Serve (customer obsession)
+- Respect (humble, honest, be nice)
+- Trust (High agency)
+- Lead (Ownership)
+- Deliver (Get the job done, the details are largely unimportant)
+    - Remote work is fine
+    - Work the hours you need to
+
+Values for how to actually do the work
+
+- Defer to the DRI if there is a conflict the task owner should make the call.
+- Small teams and let people make decisions themselves.
+- Take responsibility
+    - For every project you have monitor and report on its metrics, good or bad.
+    - Own your decisions
+- Automate where you can
+    - If you're going to have small/low resource teams invest in automation.
+    - Save your energy for the high impact work
+- Think through things and care about the details
+    - Think through edge cases especially if they'll be high visibility
+- Ship fast, but ship to learn
+    - Fast feedback cycles
+    - Learn from customers and dictate future work
+
+### Product Engineering at AngelList Talent
+
+> https://wellfound.com/blog/product-engineering-at-angellist-talent
+
+More on the product minded engineer and qualities they have. 
+
+- Contributes more than just code
+    - Docs, blogs, processes, etc. 
+- Collaborate closely with designers. 
+- Work full-stack
+    - Let's engineers truly own a project
+- Make fast, impactful decisions
+    - Small teams, high quality, continuously shipping
+- Serve customers
+    - Customer obsession
+
+### Working Backwards (the Amazon Method)
+
+> https://www.productplan.com/glossary/working-backward-amazon-method/
+
+The infamous work backwards from a Press Release method.
+
+- Quicker than an MVP
+- Useful gut-check about a product's viability
+    - Is it exciting?
+    - Is it worthwhile?
+- Useful during development
+- Customer centric
+
+I think the formal process might be too much at the small scale of the company
+now. I like the Stripe more flexible method of having shipping culture and blog
+posts and not being prescriptive about it. 
+
+Could be something to grow into.
+
 ## Appendix 
 
 * A good template for documentation and general communication:
 https://flower.codes/2020/02/12/documentation-strategy-template.html
-
+* A good set of frameworks for asking good questions:
+https://jvns.ca/blog/2016/08/31/asking-questions/
+* Repository of engineering titles, bands, and expectations: 
+https://github.com/urbanairship/techladder/tree/master
+* Basecamp book on their planning process: https://basecamp.com/shapeup
 
 

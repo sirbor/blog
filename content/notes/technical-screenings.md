@@ -74,8 +74,22 @@ There's a lot there. If yes then maybe, if no then is there something really
 important that you've found to be a problem before? Should that be highly
 prioritized or should it be a nice to have?
 
+### What my technical interviews have looked like
+
+> https://jvns.ca/blog/2014/01/16/what-my-technical-interviews-have-looked-like/
+
+- Start with behavioral and ask about background, expectations, etc.
+- No tricky math questions
+- More open ended tell me about xyz questions
+
+
 ## Appendix
 
 > https://guzey.com/talent/
 > https://guzey.com/cursed-talent/
+> https://danluu.com/talent/
+> https://danluu.com/algorithms-interviews/
+> https://danluu.com/programmer-moneyball/
+> https://matt.sh/panic-at-the-job-market
+
 
