@@ -5,7 +5,9 @@ tags: ["startups", "culture", "dev", "seed"]
 ---
 
 Been thinking a lot about how to organize an engineering team, run a team, and
-build a good culture. Taking notes on different posts from blogs I follow. 
+build a good culture. Taking notes on different posts from blogs I follow. I'm
+thinking about this from the lens of my early stage startup [Plastic
+Labs](https://plasticlabs.ai/)
 
 Some of these thoughts also influence my thoughts/notes on [[technical
 screenings]]
@@ -40,49 +42,261 @@ focus on.
 
 > https://programmingisterrible.com/
 
+### On Technical Deb: Shoveling Forward
+
 > https://ferd.ca/on-technical-debt-shoveling-forward.html
 
-> https://ferd.ca/handling-overload.html
+My takeaway from this post which is more a reframing of technical debt is a
+parallel to another post which talks about how to design our tech debt. Instead
+of writing code that will accrue debt and be very hard to change, design code
+that is easy to delete. Deleting can be faster than refactoring and often
+better for moving forward. 
+
+### You Are Not Your Impostor Syndrome
 
 > https://flower.codes/2024/06/23/you-are-not-your-impostor-syndrome.html
 
+Imposter syndrome is natural in the workplace and is often a good sign. This
+post distills this pretty well and mentions some concepts that I'd hope are
+present in team members. 
+
+* Imposter syndrome is a sign you care
+* It's a sign you're growing
+
+I want our team to be a place where individuals are growing and often we are
+going to be thrown into new territory either because we are scrappy or because
+the job will morph as the company grows. 
+
+Even if you don't initially have imposter syndrome I would encourage everyone to
+be ambitious and seek discomfort.
+
+### 15 Pieces of Advice That Will Make You a Better Leader
+
 > https://flower.codes/2024/06/21/15-pieces-of-advice-that-will-make-you-a-better-leader.html
+
+"At its core, it's about communication, honesty, and empathy."
+
+My restatings and additional thoughts on the different ideas.
+
+1. Communicate
+2. We need to build trust so people can be comfortable and speak their mind
+3. Humility is important and understanding we don't know everything. 
+4. Ask questions ask questions ask questions. Personal thing for me a sign of a
+   good leader is someone who can dig in and ask a ton of questions. Not really
+   what this post is saying but it echos the importance of asking questions. 
+
+> Note
+> The idea that asking questions is a sign of a good leader comes from this talk
+> I added a long time ago [influential questions](https://www.youtube.com/watch?v=3xgiCK2msnM)
+
+5. Listen then speak
+6. Be strict about prioritizing. Actually do it don't give vague ideas.
+7. Don't say "should" it's too vague and hard to dictate action on.
+    * Nobody owns "should." It's safe. There's no accountability.
+8. Take notes and write down everything. (I encourage PKM nerds to do their
+   thing)
+10. Classic be a leader not a manager idea. Lead by example.
+11. Respect other's time. Super important especially when not all time is [[engineering-culture#the-37-signals| the same]]
+12. Always be learning. If we want the ICs to do this it needs to start from the
+    top.
+13. Be able to log off and take time away.
+14. Make sure metrics are meaningful. Be careful of [Goodhart's Law](https://coffeeandjunk.com/goodharts-campbells-law/#:~:text=%E2%80%9CWhen%20a%20measure%20becomes%20a,to%20be%20a%20good%20measure.%E2%80%9D&text=All%20metrics%20of%20evaluation%20are,people%20start%20to%20game%20it.)
+15. Actually care about people
+
+### Authentically Speaking
 
 > https://flower.codes/2024/01/16/authentically-speaking.html
 
+"Real authenticity is about honest connection. It's about sharing a truth with
+someone else—not to generate a specific outcome, but to create a relationship."
+
+As a manager and a team we should strive for authenticity in our day to day
+interactions. No use putting up fronts and no use lying about the state of
+things. It'll just hurt us later.
+
+### Work Life Imbalance
+
 > https://flower.codes/2023/12/21/work-life-imbalance.html
 
-> https://flower.codes/2023/08/14/self-care-happens-offline.html
+- Immense overworking can come from a place of fear not only a "grindset"
+- It's easy to get an unhealthy relationship with work where a lot of your self
+  worth can be linked to your job performance.
+- You should not have to feel guilty about doing things that keep you healthy or
+  happy.
+- "when you take responsibility for your teams' failures, yet pass all successes
+  through to them, it can be pretty demoralizing, but that's the job of a good
+  leader" — Being a leader is hard. 
 
-> https://flower.codes/2020/02/12/documentation-strategy-template.html
-
-> https://guzey.com/productivity/
-
-> https://guzey.com/talent/
-
-> https://guzey.com/cursed-talent/
- 
-> https://guzey.com/how-to-make-friends-over-the-internet/
- 
-> https://jvns.ca/blog/2015/07/25/an-argument-for-hiring-junior-developers/
-
-> https://jvns.ca/blog/2016/10/21/a-litmus-test-for-job-descriptions/
+### The Constant Introspection of Management
 
 > https://www.elidedbranches.com/2013/12/2013-constant-introspection-of.html
 
-> https://www.elidedbranches.com/
+Some notes on the difficulties of being a manager and the emotional challenges
+you'll face along the way. 
+
+"The hardest part for me of going from individual contributor/architect/tech
+lead to managing in anger has been the lack of certainty."
+
+- You need to care about your people without taking the things they do
+personally. 
+- Every person who quits feels like an indictment of all the ways you failed them.
+- As a manager you lose both autonomy and mastery.
+- You are always only as good as your team. 
+
+### On the role of CTO
 
 > https://www.elidedbranches.com/2015/02/cto.html
 
+- The CTO is NOT an engineering role. 
+- The CTO is NOT necessarily the best engineer in the company.
+- There are many different paths to CTO and different focuses and approaches
+- More on approaches:
+    - Focus on processes of engineering
+    - Focus on hiring/recruiting
+    - Focus on technical architecture
+    - Focus on product roadmap 
+
+"The CTO is the technical leader the company has in its current stage of
+evolution"
+
+a better definition
+
+"CTO should be the strategic technical executive the company needs in its current stage of evolution"
+- "The CTO is an executive first, a technologist second."
+- "the CTO must understand where the biggest technical opportunities and risks for
+the business are and focus on capitalizing on them. "
+- It is important to maintain reporting power and actual control of the team
+otherwise it can be easy to lose your effectiveness.
+
+### Notes on Startup Engineering Management for Young Bloods
+
 > https://www.elidedbranches.com/2015/10/notes-on-startup-engineering-management.html
+
+- Often leaders learn through mistakes, but those mistakes are often very
+costly. 
+- A startup is going to be different than a regular manager because you have no
+  safety net.
+- A big part of your job is to create that safety net.
+    - Create sane processes
+    - Create sane standards
+- You need to setup the team to scale without you having to make every decision
+  yourself.
+- Coordination is hard!!
+- If the set of projects going on can fit into your head, your project list is
+probably trivial.
+- If the set of people is small enough that everyone knows everyone else,
+politics is trivial. Politics at that scale is a sign of organizational illness.
+- "The team is moving too slow" is the hardest problem you'll ever debug.
+- Trust is of the upmost importance as you get farther and farther from the
+work. What you do for your direct reports will flow down the chain.
+- Metrics are not everything but they can be useful.
+- Learn to estimate capacity. 
+- People can do more than they think they can. Especially at startups people
+want to ship so let them. If you're bored do it better or cheaper. 
+- People will quit. It's a reality you will have to learn to deal with. 
+- Your job is to survive
+
+### The Manager as Debugger
 
 > https://www.elidedbranches.com/2015/11/the-manager-as-debugger.html
 
+- The author often finds that people great at debugging are great managers. They
+  are great at diving into and discovering the "why" around issues.
+- You need to be able to hypothesis why problems are occurring, you can't rely
+  stricting on micromanaging and monitoring as that can impact results
+
+### Things Your Manager Might Not Know
+
 > https://jvns.ca/blog/things-your-manager-might-not-know/
+
+- What’s slowing the team down
+    - Ask about their challenges
+- Exactly what individual people on the team are working on
+    - Ask what they are working on
+- Where the technical debt is
+    - Ask about technical risks
+- How to help you get better at your job
+    - Ask what they need to do better
+- What your goals are
+    - Ask about their goals
+- What issues they should be escalating
+    - Ask what they've been struggling with the most and as a follow up ask if
+    it needs to be escalated
+- What extra work you’re doing
+    - What is extra work you are doing that isn't budgeted right now? Docs, etc.
+      Can it be worked into the schedule? Can it be considered when thinking of
+      career progression
+- How compensation/promotions work at the company
+    - I should know this lol
+
+I largely think these are problems that will occur as the company grows bigger
+at the small scale we are at right now, I should have visibility or direct
+control over a lot of these. That being said still things that I can be
+accountable for and might miss so will make efforts to not miss them.
+
+### Getting Things Done
 
 > https://jvns.ca/blog/2016/09/19/getting-things-done/
 
+- Have a vision. Like this concept a lot should be clear what you are actually
+working towards. If you don't get the vision work it out with the
+manager/architect. Make a document. Do whatever you need to make it clear in
+your head. 
+- Focus on one thing at a time. Like this too. Don't overload and don't
+multitask and do everything bad. Do one thing well and keep going. 
+- Trying to get something every day. This is a good rule of thumb as well and
+can be anything. Building on the [[engineering-culture#here's-how-to-live-create|
+live to create]] idea can be notes, can be code, whatever. Put something out
+there to crystalize your work.
+- Talk to somewhen you get stuck — have a culture where it's ok to not know
+everything, be humble and be comfortable asking for help.
+- Do whatever's necessary — This with caveats. Make sure you are smart about
+what you are doing. If you're going to create excess tech debt design to be
+deleted, but ultimately find scrappy and subversive ways to get stuff done. 
+- Believe in yourself — You were chosen to be on the team because we believe in
+you, so believe in your ability to figure things out. 
+
+
+### What's a senior engineer's job?
+
 > https://jvns.ca/blog/senior-engineer/
+
+A senior engineer, founding engineer, whatever you wanna call it, at a startup
+especially one as small as Plastic is going to be expected to grow with the
+organization and be incredibly high context. They will be a pillar as the
+organization grows and there's a lot that will go into that. 
+
+- Write code
+- Do code reviews
+- Write and review design docs
+- Help team members when they're stuck
+- Hold folks to a high quality standard
+- Create new projects
+- Plan your project's work 
+- Proactively communicate project risks
+- Communicate successes!
+- Do side projects that benefit the team/company
+- Be aware of how projects relate to business priorities — (be invested in the
+direction of the company, don't do tasks mindlessly)
+- Decide when to stop doing a project
+
+There's a lot here but it's all about being a high agency thought leader that
+can impact decision making and lubricate the development process to move faster.
+You should be an augmentative force. 
+
+What not to do:
+
+- Make sure every team member’s work is recognized
+- Make sure work is allocated in a fair way
+- Make sure folks are working well together
+- Build team cohesion
+- Have 1:1s with everyone on the team
+- Train new managers / help them understand what’s expected of them 
+- Do project management for projects you’re not working on
+- Be a product manager
+- Do sprint management / organize everyone’s work into milestones / run weekly team meetings
+
+Let your manager do their job and just work to support your team members.
 
 > https://jvns.ca/blog/2016/08/16/how-do-you-work-on-something-important/
 
@@ -261,15 +475,9 @@ None of us are trying to be asshole's and we should be here for each other.
 
 > https://danluu.com/startup-tradeoffs/
 
-> https://www.patreon.com/posts/31646816
-
-> https://www.patreon.com/posts/26207122
-
 > https://www.benkuhn.net/abyss/#fnref:1
 
 > https://www.benkuhn.net/leadcats/
-
-> https://www.benkuhn.net/weeklyessays/
 
 ### There's No Speed Limit
 
@@ -286,7 +494,7 @@ realize we can figure out and learn whatever we need.
 Have the agency and drive to do what you want and not get blocked by mental
 blocks. Be ambitious and have a voracious appetite to grow and learn. 
 
-### Here’s how to live: Create.
+### Here’s how to live: Create
 
 > https://sive.rs/htl23
 
@@ -305,40 +513,19 @@ in my career. You get ideas as you do stuff, you can't just wait. It's a similar
 thing with startups. You shouldn't just think of an idea then make a startup, do
 stuff and you'll see the problems that are worth solving. 
 
-### Here’s how to live: Love.
+A thing to be careful of here is to not fall victim to [[symbolic-self-completion-theory|Symbolic Self Completion
+Theory ]]
+
+### Here’s how to live: Love
 
 > https://sive.rs/htl22
 
 My main takeaway here is have passion. Meet things where they are, love to
 learn, love the craft, and be put yourself into your work. 
 
-> https://sive.rs/aos
-
 > https://sive.rs/evers
 
 > https://sive.rs/res
-
-> https://sive.rs/netskill
-
-> https://sive.rs/city
-
-> https://sive.rs/mn1
-
-> https://sive.rs/pp
-
-> https://sive.rs/slow
-
-> https://sive.rs/unmo
-
-> https://sive.rs/dc
-
-> https://sive.rs/d1
-
-> https://sive.rs/interviews
-
-> https://sive.rs/no2
-
-> https://sive.rs/relax
 
 > https://autotranslucence.wordpress.com/2018/03/30/becoming-a-magician/
 
@@ -395,6 +582,10 @@ Other slogans I love
 * Really, really, really care
     * You want a culture where caring helps and people are rewarded for it.
 
+## Appendix 
+
+* A good template for documentation and general communication:
+https://flower.codes/2020/02/12/documentation-strategy-template.html
 
 
 

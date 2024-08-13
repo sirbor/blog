@@ -64,3 +64,18 @@ would generate from going through the test.
 Also we want to be as consistent and standardized as possible. Scripts for the
 interview are ok so we can prevent inconsistencies between interviewer. 
 
+### A Litmus Test for Job Descriptions
+
+> https://jvns.ca/blog/2016/10/21/a-litmus-test-for-job-descriptions/
+
+"Would everyone on your team today have met those requirements when they joined"
+
+There's a lot there. If yes then maybe, if no then is there something really
+important that you've found to be a problem before? Should that be highly
+prioritized or should it be a nice to have?
+
+## Appendix
+
+> https://guzey.com/talent/
+> https://guzey.com/cursed-talent/
+
