@@ -22,7 +22,7 @@ Different tech and concepts I find interesting and cool links I want to look at 
 
 I just think games and their development are the coolest things. I find myself
 watching a lot of [Extra Credits](https://www.youtube.com/extracredits) and [Game Maker's
-Toolkit](https://www.youtube.com/@GMTK) videos. 
+Toolkit](https://www.youtube.com/@GMTK) videos.
 
 Below are a few different tutorials and concepts I've been meaning to dive into
 
@@ -34,6 +34,33 @@ Below are a few different tutorials and concepts I've been meaning to dive into
 - [How to make an RPG](https://howtomakeanrpg.com/)
 - [BYTEPATH Tutorial](https://github.com/a327ex/blog/issues/30) — A really nice
   all encompassing tutorial for a Love2D game
+- [Roguelike tutorial](https://trystans.blogspot.com/)
+- [PIDs: Creating Stable Control in Games](https://azeemba.com/posts/pids-creating-stable-control-in-games.html)
+- [World Generation Breakdown](http://www.nolithius.com/articles/world-generation/world-generation-breakdown)
+- [How to Make an RPG](https://howtomakeanrpg.com/)
+
+### Game AI
+
+- [Chess Engines](https://www.chessengines.org/)
+- [Game AI Pro](http://www.gameaipro.com/)
+
+## Generative AI
+
+While I've been working in the Generative AI "industry" for more than a year now
+I don't actually have any classical training with it and have just been picking
+up things on the fly. I would like to go back and immerse myself in some kind of
+[JITT](https://tvtropes.org/pmwiki/pmwiki.php/Literature/RainbowsEnd) to learn stuff in detail. Some resources I've found that I'd like to go
+through and potentially review.
+
+- [ARENA Curriculum](https://www.arena.education/home)
+- [Building LLMs from the Ground Up: A 3-hour Coding Workshop](https://magazine.sebastianraschka.com/p/building-llms-from-the-ground-up)
+- [Building a GPT-like Model from Scratch with Detailed Theory and Code
+  Implementation](https://habr.com/en/companies/ods/articles/708672/)
+- [The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/)
+- [Let's build GPT: from scratch, in code, spelled out](https://www.youtube.com/watch?v=kCc8FmEb1nY)
+- [Neural Networks: Zero to Hero](https://github.com/karpathy/nn-zero-to-hero)
+  - [Alternate Link](https://karpathy.ai/zero-to-hero.html)
+- [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course/chapter1/1)
 
 ## Petal Stack
 
@@ -47,7 +74,7 @@ the modern successor in a lot of ways to rails.
 Additionally, I've been reading a lot of the [fly.io](https://fly.io/) blog
 posts, and they talk about elixir a lot, which fly being a great platform for
 running it. As a fan of fly, and it being the place where I want to host a lot of
-projects in the future I want to dive more into it. 
+projects in the future I want to dive more into it.
 
 ## Massively concurrrent dataflow programming languages
 
@@ -64,7 +91,7 @@ Just interested in old hardware and why we need to emulate hardware to play ROMs
 - [Rodrigro Copetti Architecture of Consoles](https://www.copetti.org/)
 - [MiSTer FPGA](https://www.retrorgb.com/mister.html)
 
-## Compilers and Tree Parsers
+## Compilers, Interpreters, and Parsers
 
 Mainly stemming from a interest in neovim and how text editors work
 
@@ -72,11 +99,20 @@ Mainly stemming from a interest in neovim and how text editors work
 - [How to write a tree-sitter grammar in an afternoon](https://siraben.dev/2022/03/01/tree-sitter.html)
 - [Let's Build a Compiler](https://compilers.iecc.com/crenshaw/)
 - [From Source Code to Machine Code](https://build-your-own.org/#section-compiler)
+- [Writing a compiler in Go](https://compilerbook.com/)
+- [Driving Compilers](https://fabiensanglard.net/dc/)
+- [Building the fastest Lua interpreter..automatically!](https://sillycross.github.io/2023/05/12/2023-05-12/)
+- [Bril: A Compiler Intermediate Representation for Learning](https://capra.cs.cornell.edu/bril/)
 
-## Game AI
+## Operating Systems
 
-- [Chess Engines](https://www.chessengines.org/)
-- [Game AI Pro](http://www.gameaipro.com/)
+- [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- [Hypervisor From Scratch](https://rayanfam.com/tutorials/)
+
+## Browser Engineering
+
+- [Web Browser Engineering](https://browser.engineering/)
+- [Understanding WASM](https://www.neversaw.us/2023/05/10/understanding-wasm/part1/virtualization/)
 
 ## Interface Description Languages
 
@@ -93,24 +129,24 @@ think my interest in this started back when I discovered [IPFS](https://ipfs.io/
 I was wondering what else you could do by design domain specific protocols.
 
 - Could you maybe design an entire set of laws and decision making using a DAO
-protocol
+  protocol
   - For example could you codify Robert's Rules of Order into a protocol that
-  you could then deploy as an instance of a "deliberative assembly"
+    you could then deploy as an instance of a "deliberative assembly"
 - Also interested in this domain from the space of networking protocols. For the
-most part, the different protocols I've seen are fundamentally based on TCP and UDP.
-So how can you go about designing your own protocol for specific needs?
+  most part, the different protocols I've seen are fundamentally based on TCP and UDP.
+  So how can you go about designing your own protocol for specific needs?
 
 ## Thermodynamic Computing
 
 Since I've gotten more active on Twitter over the last year I've become a bit
 familiarized with [Extropic](https://www.extropic.ai/), and keep struggling to
-understand what the heck they are talking about. 
+understand what the heck they are talking about.
 
 I can't tell if it's a grift, if it's real, or even really what the value of
 what they are talking about is. That said [Normal Computing](https://normalcomputing.ai)
 is apparently working on similar stuff I usually find their posts delightful and
 well written. So I want to spend some time diving into that and understanding
-what it really is and how it works. 
+what it really is and how it works.
 
 - [Thermodynamic Computing Beyond Moore’s Law and the von Neumann Bottleneck](https://knowm.org/thermodynamic-computing-physik/)
 - [Probablistic Computing with P-bits](https://arxiv.org/abs/2108.09836)
@@ -129,11 +165,11 @@ why it's so hard to get my own financial data, and it's a bit two-pronged in ter
 of what I want to know. First, I want to understand a bit more of creating my
 own personal finance stack. This includes the budgeting work I've done, but also
 stuff such as owning my own bank and investments. Some related platforms I was
-looking at. 
+looking at.
 
 - [Column Developer Bank](https://column.com/)
-- [Composer no-code investment workflows](https://www.composer.trade/) 
-- [Alpaca algotrading](https://alpaca.markets/) 
+- [Composer no-code investment workflows](https://www.composer.trade/)
+- [Alpaca algotrading](https://alpaca.markets/)
 - [Bare Metal Bank Increase](https://increase.com/)
 
 The other idea I was thinking about is what is the actual technology that is at
@@ -141,7 +177,7 @@ the backbones of the US or current world financial system. How does the stock
 exchange work? I know how a lot of decentralized or centralized exchanges in the
 web3 world work, but I don't fully understand the current stock exchange. If
 it's an exchange why I can trade on it directly? Wanted to frame this as if I
-was starting a new country how would I build a financial system. 
+was starting a new country how would I build a financial system.
 
 - [Electronic Data Interchange](https://en.wikipedia.org/wiki/Electronic_data_interchange)
 - [Fednow](https://www.frbservices.org/financial-services/fednow)
