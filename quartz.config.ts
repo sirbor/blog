@@ -12,7 +12,7 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "postHog",
     },
     locale: "en-US",
     baseUrl: "vineeth.io",
