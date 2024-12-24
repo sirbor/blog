@@ -299,3 +299,8 @@ behavior of the individual agents.
   - How would that flow work?
 - Do the bots need any kind of incentive encoded in them?
 - Are the bots natively aware of everyone else in the channel?
+
+## Further Reading / New Projects
+
+- [Project Sid](https://github.com/altera-al/project-sid/tree/main)
+- [Tiny Troupe](https://github.com/microsoft/TinyTroupe)
