@@ -10,8 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       GitHub: "https://github.com/sirbor",
       LinkedIn: "https://www.linkedin.com/in/sirbor/",
-      BlueSky: "https://bsky.app/profile/dominicbor.me",
-      GoodReads: "https://www.goodreads.com/0x_bor ",
+      Portfolio: "https://dominicbor.me",
       Mail: "mailto:mail@dominicbor.me",
     },
   }),
@@ -36,9 +35,7 @@ export const defaultContentPageLayout: PageLayout = {
         title: "Recent Posts",
         limit: 3,
         filter: (f) =>
-          f.slug!.startsWith("posts/") &&
-          !f.frontmatter?.noindex &&
-          f.frontmatter?.title != "Posts",
+          f.slug!.startsWith("posts/") && !f.frontmatter?.noindex && f.frontmatter?.title != "Posts",
         linkToMore: "posts/" as SimpleSlug,
       }),
     ),

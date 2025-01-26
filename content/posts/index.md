@@ -1,4 +1,4 @@
 ---
 title: Posts
-description: Detailed analyses and research findings.
+description: More fleshed out original ideas that deserve more attention that notes
 ---

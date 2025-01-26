@@ -1,4 +1,4 @@
-FROM node:20-slim as git clone https://github.com/NvChad/starter ~/.config/nvim && nvimbuilder
+FROM node:20-slim as builder
 WORKDIR /usr/src/app
 COPY package.json .
 COPY package-lock.json* .

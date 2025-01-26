@@ -1,263 +1,195 @@
 ---
-title: Artificial Intelligence
-description: Master the essential topics—mathematics, programming, machine learning, deep learning, NLP, computer vision, and ethics—to become a skilled AI engineer and build innovative AI solutions that transform industries.
+title: Garden
+description: Second brain record of what I'm currently thinking about
 ---
 
-# The Ultimate Guide to Becoming an AI Engineer: Key Topics to Master
+This page is inspired by [Karlicoss's exobrain](https://beepb00p.xyz/exobrain/)
 
-Artificial Intelligence (AI) is no longer just a buzzword—it’s a transformative force reshaping industries like healthcare, finance, transportation, and entertainment. As an aspiring AI engineer, you need a strong foundation in mathematics, programming, and domain-specific knowledge. This blog dives deep into the essential topics you must master to excel in this field.
+I want to make a better record of who I am, and the content I am interacting
+with. Eventually want to consolidate my bookmarks to make something like
+[Nikiv.dev's Wiki](https://wiki.nikiv.dev/)
 
----
-
-## 1. Mathematics: The Language of AI
-
-Mathematics is the foundation of AI. It provides the tools to understand, design, and optimize algorithms. Here’s a deeper look at the key areas:
-
-### Linear Algebra
-
-- **Vectors and Matrices**: Vectors represent data points, while matrices are used to perform linear transformations (e.g., rotations, scaling). For example, in image processing, a grayscale image is represented as a matrix of pixel values.
-- **Matrix Decompositions**: Techniques like Singular Value Decomposition (SVD) and Principal Component Analysis (PCA) are used for dimensionality reduction, which is critical for handling high-dimensional data.
-- **Applications**: Neural networks rely heavily on matrix operations for forward and backward propagation.
-
-### Probability and Statistics
-
-- **Probability Basics**: Understanding events, sample spaces, and probability rules is essential for modeling uncertainty.
-- **Conditional Probability and Bayes’ Theorem**: These are the backbone of algorithms like Naive Bayes, used in spam detection and recommendation systems.
-- **Distributions**: Gaussian (normal), binomial, and Poisson distributions are commonly used to model real-world data.
-- **Hypothesis Testing**: Used to validate assumptions about data, such as A/B testing in marketing.
-
-### Calculus
-
-- **Derivatives and Partial Derivatives**: These are used to compute gradients, which are essential for optimizing models using gradient descent.
-- **Integration**: Helps in understanding concepts like expected value in probability.
-- **Applications**: Calculus is used in training neural networks, where gradients are computed to update weights.
-
-### Optimization
-
-- **Gradient Descent**: The most widely used optimization algorithm in machine learning. Variants like Stochastic Gradient Descent (SGD) and Adam are used to speed up convergence.
-- **Convex vs. Non-Convex Optimization**: Convex functions have a single global minimum, while non-convex functions (common in deep learning) have multiple local minima, making optimization challenging.
+Over the next few weeks I'll start revamping this part of the site in accordance
+with [[dark forest|Diving into the Dark Forest]]
 
 ---
 
-## 2. Programming: Building AI Systems
+# Want to learn
 
-Programming is the practical skill that brings AI models to life. Here’s a deeper dive into the key areas:
+Different tech and concepts I find interesting and cool links I want to look at more.
 
-### Python: The Go-To Language for AI
+## Game Dev
 
-- Python’s simplicity and extensive libraries make it the preferred choice for AI development.
-- Libraries like NumPy (numerical computing), Pandas (data manipulation), and Matplotlib (visualization) are indispensable.
+I just think games and their development are the coolest things. I find myself
+watching a lot of [Extra Credits](https://www.youtube.com/extracredits) and [Game Maker's
+Toolkit](https://www.youtube.com/@GMTK) videos.
 
-### Machine Learning Libraries
+Below are a few different tutorials and concepts I've been meaning to dive into
 
-- **Scikit-learn**: Provides tools for classification, regression, clustering, and model evaluation.
-- **XGBoost and LightGBM**: Popular libraries for gradient boosting, used in competitions like Kaggle.
+- [Box2D tutorial](https://www.iforce2d.net/b2dtut/) — Struggled to find a good tutorial on this and really understand how to make a good feeling platformer
+- [libtcod](https://github.com/libtcod/libtcod) — Roguelike dev engine
+- [Game Programming Design Patterns](http://gameprogrammingpatterns.com/)
+- [How to make a .io game](https://victorzhou.com/blog/build-an-io-game-part-1/)
+- [Machinations](https://machinations.io/) — Tool to prototype game systems and economies
+- [How to make an RPG](https://howtomakeanrpg.com/)
+- [BYTEPATH Tutorial](https://github.com/a327ex/blog/issues/30) — A really nice
+  all encompassing tutorial for a Love2D game
+- [Roguelike tutorial](https://trystans.blogspot.com/)
+- [PIDs: Creating Stable Control in Games](https://azeemba.com/posts/pids-creating-stable-control-in-games.html)
+- [World Generation Breakdown](http://www.nolithius.com/articles/world-generation/world-generation-breakdown)
+- [How to Make an RPG](https://howtomakeanrpg.com/)
 
-### Deep Learning Frameworks
+### Game AI
 
-- **TensorFlow and PyTorch**: These frameworks simplify building and training neural networks. PyTorch is known for its dynamic computation graph, while TensorFlow excels in production deployment.
-- **Keras**: A high-level API built on TensorFlow, ideal for beginners.
+- [Chess Engines](https://www.chessengines.org/)
+- [Game AI Pro](http://www.gameaipro.com/)
 
-### Software Engineering Best Practices
+## Generative AI
 
-- **Version Control**: Git and GitHub are essential for collaborative development.
-- **Debugging and Testing**: Writing unit tests and debugging code ensures robustness.
-- **Modular Code**: Breaking code into reusable functions and classes improves maintainability.
+While I've been working in the Generative AI "industry" for more than a year now
+I don't actually have any classical training with it and have just been picking
+up things on the fly. I would like to go back and immerse myself in some kind of
+[JITT](https://tvtropes.org/pmwiki/pmwiki.php/Literature/RainbowsEnd) to learn stuff in detail. Some resources I've found that I'd like to go
+through and potentially review.
 
----
+- [ARENA Curriculum](https://www.arena.education/home)
+- [Building LLMs from the Ground Up: A 3-hour Coding Workshop](https://magazine.sebastianraschka.com/p/building-llms-from-the-ground-up)
+- [Building a GPT-like Model from Scratch with Detailed Theory and Code
+  Implementation](https://habr.com/en/companies/ods/articles/708672/)
+- [The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/)
+- [Let's build GPT: from scratch, in code, spelled out](https://www.youtube.com/watch?v=kCc8FmEb1nY)
+- [Neural Networks: Zero to Hero](https://github.com/karpathy/nn-zero-to-hero)
+  - [Alternate Link](https://karpathy.ai/zero-to-hero.html)
+- [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course/chapter1/1)
 
-## 3. Machine Learning: The Heart of AI
+## Petal Stack
 
-Machine Learning (ML) is the core of AI, enabling systems to learn from data. Here’s a deeper look:
+I'm getting pretty tired of the NodeJS ecosystem and have been reading a lot
+about rails and why people really liked it back in the day. After working on a
+couple of projects where I had to figure out a ton of stuff like auth myself
+along with issues between client side vs server side code the opiniated all
+inclusive stack seems really appealing. Elxir + Pheonix + Liveview seems to be
+the modern successor in a lot of ways to rails.
 
-### Supervised Learning
+Additionally, I've been reading a lot of the [fly.io](https://fly.io/) blog
+posts, and they talk about elixir a lot, which fly being a great platform for
+running it. As a fan of fly, and it being the place where I want to host a lot of
+projects in the future I want to dive more into it.
+
+## Massively concurrrent dataflow programming languages
+
+What even are these, why they stopped being used.
+
+- [Joule Programming Language](<https://en.wikipedia.org/wiki/Joule_(programming_language)>)
+- [E Programming Language](<https://en.wikipedia.org/wiki/E_(programming_language)>)
 
-- **Regression**: Predicts continuous values (e.g., house prices using linear regression).
-- **Classification**: Predicts discrete labels (e.g., spam detection using logistic regression or SVMs).
-- **Ensemble Methods**: Techniques like Random Forests and Gradient Boosting combine multiple models to improve performance.
+## Emulators and Hardware
 
-### Unsupervised Learning
+Just interested in old hardware and why we need to emulate hardware to play ROMs
 
-- **Clustering**: Groups similar data points (e.g., customer segmentation using k-means).
-- **Dimensionality Reduction**: Reduces the number of features while preserving information (e.g., PCA for visualizing high-dimensional data).
+- [Fabien Sanglard](https://fabiensanglard.net/) — Really cool posts on games and hardware
+- [Rodrigro Copetti Architecture of Consoles](https://www.copetti.org/)
+- [MiSTer FPGA](https://www.retrorgb.com/mister.html)
 
-### Reinforcement Learning
+## Compilers, Interpreters, and Parsers
 
-- **Markov Decision Processes (MDPs)**: A framework for modeling decision-making problems.
-- **Q-Learning**: A model-free algorithm for learning optimal policies.
-- **Applications**: Used in robotics, gaming (e.g., AlphaGo), and autonomous systems.
+Mainly stemming from a interest in neovim and how text editors work
 
----
+- [Crafting Interpreters](https://craftinginterpreters.com/index.html)
+- [How to write a tree-sitter grammar in an afternoon](https://siraben.dev/2022/03/01/tree-sitter.html)
+- [Let's Build a Compiler](https://compilers.iecc.com/crenshaw/)
+- [From Source Code to Machine Code](https://build-your-own.org/#section-compiler)
+- [Writing a compiler in Go](https://compilerbook.com/)
+- [Driving Compilers](https://fabiensanglard.net/dc/)
+- [Building the fastest Lua interpreter..automatically!](https://sillycross.github.io/2023/05/12/2023-05-12/)
+- [Bril: A Compiler Intermediate Representation for Learning](https://capra.cs.cornell.edu/bril/)
 
-## 4. Deep Learning: Powering Modern AI
+## Operating Systems
 
-Deep Learning (DL) has revolutionized AI by enabling complex tasks like image recognition and natural language processing. Here’s a deeper dive:
+- [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- [Hypervisor From Scratch](https://rayanfam.com/tutorials/)
 
-### Neural Networks
+## Browser Engineering
 
-- **Feedforward Networks**: The simplest type of neural network, used for tasks like regression and classification.
-- **Backpropagation**: The algorithm used to train neural networks by computing gradients.
+- [Web Browser Engineering](https://browser.engineering/)
+- [Understanding WASM](https://www.neversaw.us/2023/05/10/understanding-wasm/part1/virtualization/)
 
-### Convolutional Neural Networks (CNNs)
-
-- **Convolution Layers**: Extract features from images using filters.
-- **Pooling Layers**: Reduce the spatial dimensions of the feature maps.
-- **Applications**: Image classification, object detection, and facial recognition.
-
-### Recurrent Neural Networks (RNNs)
-
-- **Sequence Modeling**: RNNs are used for time series data and text.
-- **LSTMs and GRUs**: Variants of RNNs that address the vanishing gradient problem.
-
-### Transformers
-
-- **Attention Mechanism**: Allows models to focus on relevant parts of the input.
-- **Applications**: NLP tasks like machine translation (e.g., Google Translate) and text generation (e.g., GPT).
-
----
-
-## 5. Natural Language Processing (NLP): Teaching Machines to Understand Language
-
-NLP enables machines to understand, interpret, and generate human language. Here’s a deeper look:
-
-### Text Preprocessing
-
-- **Tokenization**: Splitting text into words or sentences.
-- **Stemming and Lemmatization**: Reducing words to their base forms.
-
-### Language Models
-
-- **Word Embeddings**: Represent words as vectors (e.g., Word2Vec, GloVe).
-- **Transformers**: Models like BERT and GPT have set new benchmarks in NLP tasks.
-
-### Applications
-
-- **Sentiment Analysis**: Determining the sentiment of a text (e.g., positive, negative).
-- **Machine Translation**: Translating text from one language to another.
-
----
-
-## 6. Computer Vision: Enabling Machines to See
-
-Computer Vision (CV) allows machines to interpret visual data. Here’s a deeper dive:
-
-### Image Processing
-
-- **Filters**: Used for edge detection and noise reduction.
-- **Feature Extraction**: Identifying key points in an image.
-
-### Object Detection
-
-- **YOLO and Faster R-CNN**: Popular algorithms for detecting objects in images.
-- **Applications**: Self-driving cars, surveillance systems.
-
-### Image Segmentation
-
-- **Semantic Segmentation**: Assigning a label to each pixel in an image.
-- **Instance Segmentation**: Differentiating between instances of the same object.
-
----
-
-## 7. Big Data and Cloud Computing: Handling Large-Scale Data
-
-AI systems often process massive datasets. Here’s a deeper look:
-
-### Big Data Tools
-
-- **Hadoop and Spark**: Frameworks for distributed data processing.
-- **Hive**: A data warehouse tool for querying large datasets.
-
-### Cloud Platforms
-
-- **AWS, Google Cloud, Azure**: Provide scalable infrastructure for AI model deployment.
-- **Applications**: Training large models, storing massive datasets.
-
----
-
-## 8. AI Ethics: Building Responsible AI
-
-As AI systems impact society, ethical considerations are crucial. Here’s a deeper dive:
-
-### Bias and Fairness
-
-- **Identifying Bias**: Ensuring models don’t discriminate based on race, gender, etc.
-- **Mitigation Techniques**: Rebalancing datasets, using fairness-aware algorithms.
-
-### Explainability
-
-- **SHAP and LIME**: Tools for interpreting model predictions.
-- **Applications**: Healthcare, where explainability is critical for trust.
-
-### Privacy
-
-- **Data Anonymization**: Protecting user identities.
-- **GDPR Compliance**: Ensuring data usage aligns with regulations.
-
----
-
-## 9. Deployment and MLOps: Taking Models to Production
-
-Building models is only half the battle; deploying them is equally important. Here’s a deeper look:
-
-### Model Deployment
-
-- **Flask and FastAPI**: Frameworks for building APIs to serve models.
-- **Docker and Kubernetes**: Tools for containerizing and scaling applications.
-
-### MLOps
-
-- **CI/CD Pipelines**: Automating model training and deployment.
-- **Model Monitoring**: Tracking performance and retraining models as needed.
-
----
-
-## 10. Domain-Specific Applications: Solving Real-World Problems
-
-AI is applied across industries. Here’s a deeper dive:
-
-### Healthcare
-
-- **Predictive Diagnostics**: Using AI to predict diseases from medical images.
-- **Drug Discovery**: Accelerating the development of new drugs.
-
-### Finance
-
-- **Fraud Detection**: Identifying fraudulent transactions in real-time.
-- **Algorithmic Trading**: Using AI to make trading decisions.
-
-### Autonomous Systems
-
-- **Self-Driving Cars**: Using AI for navigation and obstacle detection.
-- **Robotics**: Enabling robots to perform complex tasks.
-
-### Recommendation Systems
-
-- **Collaborative Filtering**: Recommending products based on user behavior.
-- **Content-Based Filtering**: Recommending products based on item features.
-
----
-
-## 11. Advanced Topics: Pushing the Boundaries of AI
-
-For those looking to specialize, advanced topics include:
-
-### Reinforcement Learning
-
-- **Deep Q-Networks (DQNs)**: Combining deep learning with reinforcement learning.
-- **Applications**: Game playing (e.g., AlphaGo), robotics.
-
-### Graph Neural Networks (GNNs)
-
-- **Graph Data**: Representing data as graphs (e.g., social networks, molecules).
-- **Applications**: Drug discovery, recommendation systems.
-
-### Quantum Machine Learning
-
-- **Quantum Computing**: Leveraging quantum mechanics for faster computations.
-- **Applications**: Solving optimization problems, simulating quantum systems.
-
----
-
-## Conclusion
-
-Becoming an AI engineer is a challenging but rewarding journey. By mastering these topics, you’ll be equipped to tackle real-world problems and contribute to cutting-edge innovations. Start your journey today and unlock the potential of AI!
+## Interface Description Languages
+
+- [Wikipedia Page](https://en.wikipedia.org/wiki/Interface_description_language)
+- [Apache Thrift Project](https://thrift.apache.org/)
+- [Imandra.ai: IPL](https://www.imandra.ai/ipl-product)
+
+## Protocol Engineering
+
+This comes from looking at a lot of different blockchain projects and noticing
+that the base for many of them aren't a coin but rather a common protocol. I
+think my interest in this started back when I discovered [IPFS](https://ipfs.io/) before I found
+[Filecoin](https://filecoin.io/filecoin.pdf). Then after learning a bit about how a DAO works through sart contracts
+I was wondering what else you could do by design domain specific protocols.
+
+- Could you maybe design an entire set of laws and decision making using a DAO
+  protocol
+  - For example could you codify Robert's Rules of Order into a protocol that
+    you could then deploy as an instance of a "deliberative assembly"
+- Also interested in this domain from the space of networking protocols. For the
+  most part, the different protocols I've seen are fundamentally based on TCP and UDP.
+  So how can you go about designing your own protocol for specific needs?
+
+## Thermodynamic Computing
+
+Since I've gotten more active on Twitter over the last year I've become a bit
+familiarized with [Extropic](https://www.extropic.ai/), and keep struggling to
+understand what the heck they are talking about.
+
+I can't tell if it's a grift, if it's real, or even really what the value of
+what they are talking about is. That said [Normal Computing](https://normalcomputing.ai)
+is apparently working on similar stuff I usually find their posts delightful and
+well written. So I want to spend some time diving into that and understanding
+what it really is and how it works.
+
+- [Thermodynamic Computing Beyond Moore’s Law and the von Neumann Bottleneck](https://knowm.org/thermodynamic-computing-physik/)
+- [Probablistic Computing with P-bits](https://arxiv.org/abs/2108.09836)
+- [A First Demonstration of Thermodynamic Matrix Inversion](https://blog.normalcomputing.ai/posts/2023-11-09-thermodynamic-inversion/thermo-inversion.html)
+- [Thermodynamic Linear Algebra](https://arxiv.org/abs/2308.05660)
+- [Thermodynamic AI: intelligence from nature](https://normalcomputing.substack.com/p/thermodynamic-ai-intelligence-from)
+- [Extropic Litepaper](https://www.extropic.ai/future)
+
+# Questions I want to explore
+
+## Financial Infrastructure
+
+These questions stem from some the work I was doing with
+[plain-text-accounting](../2022/plain-text-accounting) and trying to understand
+why it's so hard to get my own financial data, and it's a bit two-pronged in terms
+of what I want to know. First, I want to understand a bit more of creating my
+own personal finance stack. This includes the budgeting work I've done, but also
+stuff such as owning my own bank and investments. Some related platforms I was
+looking at.
+
+- [Column Developer Bank](https://column.com/)
+- [Composer no-code investment workflows](https://www.composer.trade/)
+- [Alpaca algotrading](https://alpaca.markets/)
+- [Bare Metal Bank Increase](https://increase.com/)
+
+The other idea I was thinking about is what is the actual technology that is at
+the backbones of the US or current world financial system. How does the stock
+exchange work? I know how a lot of decentralized or centralized exchanges in the
+web3 world work, but I don't fully understand the current stock exchange. If
+it's an exchange why I can trade on it directly? Wanted to frame this as if I
+was starting a new country how would I build a financial system.
+
+- [Electronic Data Interchange](https://en.wikipedia.org/wiki/Electronic_data_interchange)
+- [Fednow](https://www.frbservices.org/financial-services/fednow)
+
+## Climate
+
+How is technology being leveraged to help with climate change. I've seen a lot of different
+projects around tokenizing carbon credits, carbon sink technology, advocacy, but want to get more of an
+understanding of the landscape, and the current impact it is having.
+
+Some links I'm looking at
+
+- [Climatebase](https://climatebase.org/) — list of companies and jobs in the climate space
+- [Crypto Climate Accord](https://cryptoclimate.org/accord/) — A sorta manifesto about how web3 companies can help with the climate crisis
+- [Climate Collective](https://climatecollective.org/) — Another (rival?) group of web3 organizations trying to help curtail the climate crisis.

@@ -24,14 +24,15 @@ Ability to combine technical depth with clear communication makes him a valuable
 Key Skills: AI/ML, Java, C/C++, Python, Go, AWS, SQL, GraphQL, REST APIs, Docker, Linux, React,
 Node.js, Next.js, Django, Flask, MongoDB, DynamoDB,Data Engineering, Technical Writing in AI.
 
+
 ## Structure
 
 There are a few different types of things I write and keep track of here
 
-[[garden | Artificial Intelligence]] — where I explore AI advancements and applications.
+[[garden | Garden]] — where I explore AI advancements and applications.
 
 [[posts | Posts]] — featuring detailed analyses and research findings.
 
-[[projects | Projects]] — showcasing hands-on work and creative endeavors.
-
+[[projects | Projects]] — showcasing hands-on work and creative endeavors. 
+ 
 [[notes | Notes]] — a collection of informal thoughts, reflections, and insights.
