@@ -8,14 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🤔 Vineeth's Thoughts",
+    pageTitle: "0x Bor's Blog",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "postHog",
     },
     locale: "en-US",
-    baseUrl: "vineeth.io",
+    baseUrl: "https://dominicbor.me",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {

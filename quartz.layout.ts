@@ -8,11 +8,11 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/VVoruganti/blog",
-      LinkedIn: "https://www.linkedin.com/in/vineethvoruganti/",
-      Twitter: "https://twitter.com/TheMarshmalon",
-      RSS: "/index.xml",
-      Colophon: "/notes/colophon"
+      GitHub: "https://github.com/sirbor",
+      LinkedIn: "https://www.linkedin.com/in/sirbor/",
+      BlueSky: "https://bsky.app/profile/dominicbor.me",
+      GoodReads: "https://www.goodreads.com/0x_bor ",
+      Mail: "mailto:mail@dominicbor.me",
     },
   }),
 }
@@ -36,7 +36,9 @@ export const defaultContentPageLayout: PageLayout = {
         title: "Recent Posts",
         limit: 3,
         filter: (f) =>
-          f.slug!.startsWith("posts/") && !f.frontmatter?.noindex && f.frontmatter?.title != "Posts",
+          f.slug!.startsWith("posts/") &&
+          !f.frontmatter?.noindex &&
+          f.frontmatter?.title != "Posts",
         linkToMore: "posts/" as SimpleSlug,
       }),
     ),

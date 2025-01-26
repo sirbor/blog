@@ -2,31 +2,36 @@
 title: 👋 Welcome
 ---
 
-I'm Vineeth, also go by **marshmalon** online.
+I'm Dominic, also go by **0x_Bor** online.
 
-Currently, a Founder @ [Plastic Labs](https://plasticlabs.ai). Like to spend
-my time reading about **Game Design**, **DevSecOps**, and **Blockchain**
+Currently, a Software Engineer @ [Rapid Research](https://rapidtech.ai). Like to spend
+my time reading about **Artificial Intelligence**, **System Design**, **Algrothms**, **Mathematics** and **Blockchain Technology**
 
-> [!Imporant] Hiring!
-> We're hiring for Founding and Fullstack engineers! Send me a DM if you're
+> [!Important] Book an Appointment!
+> In need of a service! Book a [Calendy](https://calendly.com/oxbor/30min) appointment if you're
 > interested!!
 
-I care a lot about **Mental Health**, and I'm trying to remove the stigma about
-being open about it. Despite what my peers may say Mental Health is real and
-important to take care of.
+Dominic is a data engineer and technical writer with a strong focus on Artificial Intelligence (AI), policy, tech, startups,
+and venture capital. With expertise in programming languages like Java, C/C++, Python, and Go, he designs and implements data-driven AI solutions,
+including machine learning pipelines, predictive models, and intelligent systems.My  work involves leveraging cloud platforms like AWS, building scalable APIs
+(REST, GraphQL), and managing databases (SQL, MongoDB, DynamoDB) to support AI applications.
 
-Using this as a space to put down my thoughts and experiments. Updated every
-once in a while, no real pattern or cadence.
+Skilled in containerization (Docker), Linux environments, and full-stack development using frameworks like React, Node.js, Next.js, Django, and Flask,
+enabling integration of  AI capabilities into end-to-end applications. As a technical writer,I specialize in demystifying AI concepts,
+from machine learning algorithms to ethical AI practices, making them accessible to developers, policymakers, and business leaders.
+Ability to combine technical depth with clear communication makes him a valuable asset in both AI development and education.
 
-The structure of this blog was inspired by [karlicoss](https://beepb00p.xyz/)
-with styling inspiration from [moonscript](https://moonscript.org/) and my
-favorite terminal theme [tokyonight](https://github.com/folke/tokyonight.nvim)
+Key Skills: AI/ML, Java, C/C++, Python, Go, AWS, SQL, GraphQL, REST APIs, Docker, Linux, React,
+Node.js, Next.js, Django, Flask, MongoDB, DynamoDB,Data Engineering, Technical Writing in AI.
 
 ## Structure
 
 There are a few different types of things I write and keep track of here
 
-[[garden | Garden]] — a page inspired by [Exobrain](https://beepb00p.xyz/exobrain/)  
-[[posts | Posts]] — longer articles with more developed thoughts  
-[[projects | Projects]] — Writeups of different projects and creative works I've  done usually linked to my [GitHub](https://github.com/VVoruganti)  
-[[notes | Notes]] — Random less developed ideas inspired by [Maggie Appleton](https://maggieappleton.com/notes) 
+[[garden | Artificial Intelligence]] — where I explore AI advancements and applications.
+
+[[posts | Technical Reports]] — featuring detailed analyses and research findings.
+
+[[projects | Projects]] — showcasing hands-on work and creative endeavors.
+
+[[notes | Notes]] — a collection of informal thoughts, reflections, and insights.
