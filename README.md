@@ -1,18 +1,33 @@
-# Quartz v4
+# Welcome to My Blog
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+👋 Hi there! I'm Dominic, also known as **0x_Bor** online. Welcome to my blog where I share my journey and insights as a Software Engineer at [Rapid Research](https://rapidtech.ai).
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+## About Me
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+I am a data engineer and technical writer with a strong focus on Artificial Intelligence (AI), policy, tech, startups, and venture capital. My expertise spans across various programming languages and technologies, including:
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+## Key Skills
 
-## Sponsors
+- AI/ML
+- Java, C/C++, Python, Go
+- AWS
+- SQL, GraphQL, REST APIs
+- Docker, Linux
+- React, Node.js, Next.js, Django, Flask
+- MongoDB, DynamoDB
+- Data Engineering
+- Technical Writing in AI
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+
+I specialize in designing and implementing data-driven AI solutions, including machine learning pipelines, predictive models, and intelligent systems. My work involves leveraging cloud platforms, building scalable APIs, and managing databases to support AI applications.
+
+As a technical writer, I demystify AI concepts, from machine learning algorithms to ethical AI practices, making them accessible to developers, policymakers, and business leaders. My ability to combine technical depth with clear communication makes me a valuable asset in both AI development and education.
+
+
+
+## Book an Appointment
+
+> [!Important] Book an Appointment!
+> In need of a service? Book a [Calendy](https://calendly.com/oxbor/30min) appointment if you're interested!
+
+Feel free to explore and reach out if you have any questions or collaboration ideas!
