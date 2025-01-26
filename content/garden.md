@@ -1,195 +1,157 @@
 ---
 title: Garden
-description: Second brain record of what I'm currently thinking about
+description: Explore AI advancements and applications.
 ---
+# Artificial Intelligence: Models, Computer Vision, and What It Takes to Be an AI Engineer
 
-This page is inspired by [Karlicoss's exobrain](https://beepb00p.xyz/exobrain/)
-
-I want to make a better record of who I am, and the content I am interacting
-with. Eventually want to consolidate my bookmarks to make something like
-[Nikiv.dev's Wiki](https://wiki.nikiv.dev/)
-
-Over the next few weeks I'll start revamping this part of the site in accordance
-with [[dark forest|Diving into the Dark Forest]]
+Artificial Intelligence (AI) has become one of the most transformative technologies of the 21st century. From self-driving cars to personalized healthcare, AI is reshaping industries and redefining how we interact with the world. At the heart of this revolution are **AI models**, which power everything from image recognition to natural language processing. For aspiring AI engineers, understanding these models—especially in areas like **computer vision**—and mastering the foundational topics is critical. This blog dives deep into AI models, explores computer vision, and outlines the essential knowledge required to thrive as an AI engineer.
 
 ---
 
-# Want to learn
+## What Are AI Models?
 
-Different tech and concepts I find interesting and cool links I want to look at more.
+AI models are computational frameworks designed to learn patterns from data and perform specific tasks. These models are trained on data, and once trained, they can make predictions, classify information, or even generate new content. AI models can be broadly categorized into the following types:
 
-## Game Dev
+### 1. Supervised Learning Models
+Supervised learning involves training models on labeled data to predict outcomes. Some of the most commonly used models include:
 
-I just think games and their development are the coolest things. I find myself
-watching a lot of [Extra Credits](https://www.youtube.com/extracredits) and [Game Maker's
-Toolkit](https://www.youtube.com/@GMTK) videos.
+- **Linear Regression**: Predicts continuous values based on linear relationships between input features.
+- **Logistic Regression**: Used for binary classification tasks, such as spam detection.
+- **Support Vector Machines (SVM)**: Effective for both classification and regression tasks, especially in high-dimensional spaces.
+- **Decision Trees and Random Forests**: Tree-based models that are interpretable and powerful for classification and regression.
 
-Below are a few different tutorials and concepts I've been meaning to dive into
+### 2. Unsupervised Learning Models
+Unsupervised learning deals with unlabeled data, focusing on discovering hidden patterns or structures. Key models include:
 
-- [Box2D tutorial](https://www.iforce2d.net/b2dtut/) — Struggled to find a good tutorial on this and really understand how to make a good feeling platformer
-- [libtcod](https://github.com/libtcod/libtcod) — Roguelike dev engine
-- [Game Programming Design Patterns](http://gameprogrammingpatterns.com/)
-- [How to make a .io game](https://victorzhou.com/blog/build-an-io-game-part-1/)
-- [Machinations](https://machinations.io/) — Tool to prototype game systems and economies
-- [How to make an RPG](https://howtomakeanrpg.com/)
-- [BYTEPATH Tutorial](https://github.com/a327ex/blog/issues/30) — A really nice
-  all encompassing tutorial for a Love2D game
-- [Roguelike tutorial](https://trystans.blogspot.com/)
-- [PIDs: Creating Stable Control in Games](https://azeemba.com/posts/pids-creating-stable-control-in-games.html)
-- [World Generation Breakdown](http://www.nolithius.com/articles/world-generation/world-generation-breakdown)
-- [How to Make an RPG](https://howtomakeanrpg.com/)
+- **K-Means Clustering**: Groups data into clusters based on similarity.
+- **Principal Component Analysis (PCA)**: Reduces the dimensionality of data while preserving its structure.
+- **Autoencoders**: Neural networks used for dimensionality reduction and feature learning.
 
-### Game AI
+### 3. Reinforcement Learning Models
+Reinforcement learning (RL) involves training agents to make decisions by rewarding desired behaviors. Key models include:
 
-- [Chess Engines](https://www.chessengines.org/)
-- [Game AI Pro](http://www.gameaipro.com/)
+- **Q-Learning**: A model-free RL algorithm for learning optimal policies.
+- **Deep Q-Networks (DQN)**: Combines Q-learning with deep neural networks to handle complex tasks.
+- **Policy Gradient Methods**: Directly optimize policies using gradient ascent.
 
-## Generative AI
+### 4. Deep Learning Models
+Deep learning leverages neural networks to model complex patterns in data. Some of the most popular architectures include:
 
-While I've been working in the Generative AI "industry" for more than a year now
-I don't actually have any classical training with it and have just been picking
-up things on the fly. I would like to go back and immerse myself in some kind of
-[JITT](https://tvtropes.org/pmwiki/pmwiki.php/Literature/RainbowsEnd) to learn stuff in detail. Some resources I've found that I'd like to go
-through and potentially review.
+- **Feedforward Neural Networks (FNNs)**: Basic neural networks used for classification and regression tasks.
+- **Convolutional Neural Networks (CNNs)**: Specialized for image and video processing.
+- **Recurrent Neural Networks (RNNs)**: Designed for sequential data like time series and text.
+- **Transformers**: Revolutionized natural language processing (NLP) with models like GPT and BERT.
 
-- [ARENA Curriculum](https://www.arena.education/home)
-- [Building LLMs from the Ground Up: A 3-hour Coding Workshop](https://magazine.sebastianraschka.com/p/building-llms-from-the-ground-up)
-- [Building a GPT-like Model from Scratch with Detailed Theory and Code
-  Implementation](https://habr.com/en/companies/ods/articles/708672/)
-- [The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/)
-- [Let's build GPT: from scratch, in code, spelled out](https://www.youtube.com/watch?v=kCc8FmEb1nY)
-- [Neural Networks: Zero to Hero](https://github.com/karpathy/nn-zero-to-hero)
-  - [Alternate Link](https://karpathy.ai/zero-to-hero.html)
-- [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course/chapter1/1)
+---
 
-## Petal Stack
+## Computer Vision: Teaching Machines to See
 
-I'm getting pretty tired of the NodeJS ecosystem and have been reading a lot
-about rails and why people really liked it back in the day. After working on a
-couple of projects where I had to figure out a ton of stuff like auth myself
-along with issues between client side vs server side code the opiniated all
-inclusive stack seems really appealing. Elxir + Pheonix + Liveview seems to be
-the modern successor in a lot of ways to rails.
+Computer vision is a subfield of AI that enables machines to interpret and understand visual data. It has become a cornerstone of AI applications, from healthcare to autonomous vehicles. Let’s explore the key areas of computer vision:
 
-Additionally, I've been reading a lot of the [fly.io](https://fly.io/) blog
-posts, and they talk about elixir a lot, which fly being a great platform for
-running it. As a fan of fly, and it being the place where I want to host a lot of
-projects in the future I want to dive more into it.
+### 1. Image Classification
+Image classification involves assigning labels to images. Convolutional Neural Networks (CNNs) are the go-to models for this task. Some notable architectures include:
 
-## Massively concurrrent dataflow programming languages
+- **AlexNet**: Pioneered the use of deep learning in computer vision.
+- **VGGNet**: Known for its simplicity and depth.
+- **ResNet**: Introduced residual connections to train very deep networks effectively.
 
-What even are these, why they stopped being used.
+### 2. Object Detection
+Object detection identifies and locates objects within images. Popular models include:
 
-- [Joule Programming Language](<https://en.wikipedia.org/wiki/Joule_(programming_language)>)
-- [E Programming Language](<https://en.wikipedia.org/wiki/E_(programming_language)>)
+- **YOLO (You Only Look Once)**: Real-time object detection with high accuracy.
+- **SSD (Single Shot Detector)**: Balances speed and accuracy for object detection.
+- **Faster R-CNN**: Combines region proposal networks with CNNs for precise detection.
 
-## Emulators and Hardware
+### 3. Image Segmentation
+Image segmentation partitions an image into meaningful regions. Techniques include:
 
-Just interested in old hardware and why we need to emulate hardware to play ROMs
+- **Semantic Segmentation**: Assigns a label to each pixel (e.g., U-Net).
+- **Instance Segmentation**: Differentiates between instances of the same object (e.g., Mask R-CNN).
 
-- [Fabien Sanglard](https://fabiensanglard.net/) — Really cool posts on games and hardware
-- [Rodrigro Copetti Architecture of Consoles](https://www.copetti.org/)
-- [MiSTer FPGA](https://www.retrorgb.com/mister.html)
+### 4. Generative Models in Computer Vision
+Generative models create new images or modify existing ones. Key models include:
 
-## Compilers, Interpreters, and Parsers
+- **Generative Adversarial Networks (GANs)**: Used for image synthesis, style transfer, and data augmentation.
+- **Variational Autoencoders (VAEs)**: Generate images by learning latent representations.
 
-Mainly stemming from a interest in neovim and how text editors work
+### 5. Applications of Computer Vision
+- **Healthcare**: Analyzing medical images for disease diagnosis.
+- **Autonomous Vehicles**: Enabling cars to perceive their environment.
+- **Retail**: Enhancing customer experiences with facial recognition and inventory management.
 
-- [Crafting Interpreters](https://craftinginterpreters.com/index.html)
-- [How to write a tree-sitter grammar in an afternoon](https://siraben.dev/2022/03/01/tree-sitter.html)
-- [Let's Build a Compiler](https://compilers.iecc.com/crenshaw/)
-- [From Source Code to Machine Code](https://build-your-own.org/#section-compiler)
-- [Writing a compiler in Go](https://compilerbook.com/)
-- [Driving Compilers](https://fabiensanglard.net/dc/)
-- [Building the fastest Lua interpreter..automatically!](https://sillycross.github.io/2023/05/12/2023-05-12/)
-- [Bril: A Compiler Intermediate Representation for Learning](https://capra.cs.cornell.edu/bril/)
+---
 
-## Operating Systems
+## Essential Topics for an AI Engineer
 
-- [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- [Hypervisor From Scratch](https://rayanfam.com/tutorials/)
+To excel as an AI engineer, you need to master a wide range of technical and theoretical topics. Here’s a breakdown of the essential knowledge areas:
 
-## Browser Engineering
+### 1. Mathematics
+- **Calculus**: Derivatives, integrals, and optimization techniques are crucial for understanding how models learn.
+- **Linear Algebra**: Vectors, matrices, eigenvalues, and singular value decomposition are foundational for AI algorithms.
+- **Probability and Statistics**: Distributions, Bayes' theorem, hypothesis testing, and statistical inference are essential for modeling uncertainty.
 
-- [Web Browser Engineering](https://browser.engineering/)
-- [Understanding WASM](https://www.neversaw.us/2023/05/10/understanding-wasm/part1/virtualization/)
+### 2. Programming and Software Engineering
+- **Python**: The primary language for AI development.
+- **Libraries and Frameworks**: TensorFlow, PyTorch, Keras, and Scikit-learn are widely used for building AI models.
+- **Version Control**: Git and GitHub are essential for collaborative development.
+- **Software Design**: Writing modular, maintainable, and scalable code is critical for real-world applications.
 
-## Interface Description Languages
+### 3. Machine Learning
+- **Supervised and Unsupervised Learning**: Understanding algorithms, evaluation metrics, and model selection is key.
+- **Feature Engineering**: Extracting meaningful features from raw data is a critical step in the machine learning pipeline.
+- **Model Evaluation**: Techniques like cross-validation, confusion matrices, and ROC curves help assess model performance.
 
-- [Wikipedia Page](https://en.wikipedia.org/wiki/Interface_description_language)
-- [Apache Thrift Project](https://thrift.apache.org/)
-- [Imandra.ai: IPL](https://www.imandra.ai/ipl-product)
+### 4. Deep Learning
+- **Neural Networks**: Understanding architecture, activation functions, and backpropagation is fundamental.
+- **Optimization**: Techniques like gradient descent, Adam, and learning rate scheduling are used to train models effectively.
+- **Regularization**: Methods like dropout, weight decay, and data augmentation prevent overfitting.
 
-## Protocol Engineering
+### 5. Natural Language Processing (NLP)
+- **Text Preprocessing**: Tokenization, stemming, and lemmatization are essential for preparing text data.
+- **Language Models**: Word embeddings (Word2Vec, GloVe) and transformers (BERT, GPT) are at the forefront of NLP.
+- **Applications**: Sentiment analysis, machine translation, and chatbots are popular NLP applications.
 
-This comes from looking at a lot of different blockchain projects and noticing
-that the base for many of them aren't a coin but rather a common protocol. I
-think my interest in this started back when I discovered [IPFS](https://ipfs.io/) before I found
-[Filecoin](https://filecoin.io/filecoin.pdf). Then after learning a bit about how a DAO works through sart contracts
-I was wondering what else you could do by design domain specific protocols.
+### 6. Reinforcement Learning
+- **Markov Decision Processes (MDPs)**: The framework for RL problems.
+- **Algorithms**: Q-learning, policy gradients, and actor-critic methods are commonly used in RL.
+- **Applications**: Game playing, robotics, and recommendation systems are key areas where RL shines.
 
-- Could you maybe design an entire set of laws and decision making using a DAO
-  protocol
-  - For example could you codify Robert's Rules of Order into a protocol that
-    you could then deploy as an instance of a "deliberative assembly"
-- Also interested in this domain from the space of networking protocols. For the
-  most part, the different protocols I've seen are fundamentally based on TCP and UDP.
-  So how can you go about designing your own protocol for specific needs?
+### 7. Big Data and Cloud Computing
+- **Data Processing**: Tools like Hadoop and Spark are used to handle large datasets.
+- **Cloud Platforms**: AWS, Google Cloud, and Azure provide scalable infrastructure for AI solutions.
+- **Distributed Computing**: Parallelizing AI workloads for faster training and inference.
 
-## Thermodynamic Computing
+### 8. Ethics and Responsible AI
+- **Bias and Fairness**: Ensuring AI models are unbiased and equitable is critical for ethical AI development.
+- **Privacy**: Protecting user data and complying with regulations like GDPR is essential.
+- **Transparency**: Making AI decisions interpretable and explainable builds trust in AI systems.
 
-Since I've gotten more active on Twitter over the last year I've become a bit
-familiarized with [Extropic](https://www.extropic.ai/), and keep struggling to
-understand what the heck they are talking about.
+---
 
-I can't tell if it's a grift, if it's real, or even really what the value of
-what they are talking about is. That said [Normal Computing](https://normalcomputing.ai)
-is apparently working on similar stuff I usually find their posts delightful and
-well written. So I want to spend some time diving into that and understanding
-what it really is and how it works.
+## Tools and Technologies for AI Engineers
 
-- [Thermodynamic Computing Beyond Moore’s Law and the von Neumann Bottleneck](https://knowm.org/thermodynamic-computing-physik/)
-- [Probablistic Computing with P-bits](https://arxiv.org/abs/2108.09836)
-- [A First Demonstration of Thermodynamic Matrix Inversion](https://blog.normalcomputing.ai/posts/2023-11-09-thermodynamic-inversion/thermo-inversion.html)
-- [Thermodynamic Linear Algebra](https://arxiv.org/abs/2308.05660)
-- [Thermodynamic AI: intelligence from nature](https://normalcomputing.substack.com/p/thermodynamic-ai-intelligence-from)
-- [Extropic Litepaper](https://www.extropic.ai/future)
+AI engineers rely on a variety of tools and technologies to build and deploy models:
 
-# Questions I want to explore
+- **Development Environments**: Jupyter Notebooks, VS Code, and PyCharm are popular choices.
+- **Data Visualization**: Matplotlib, Seaborn, and Tableau help visualize data and model performance.
+- **Model Deployment**: Docker, Kubernetes, and Flask are used to serve models in production.
+- **Monitoring and Logging**: TensorBoard, MLflow, and Prometheus help track model performance and experiments.
 
-## Financial Infrastructure
+---
 
-These questions stem from some the work I was doing with
-[plain-text-accounting](../2022/plain-text-accounting) and trying to understand
-why it's so hard to get my own financial data, and it's a bit two-pronged in terms
-of what I want to know. First, I want to understand a bit more of creating my
-own personal finance stack. This includes the budgeting work I've done, but also
-stuff such as owning my own bank and investments. Some related platforms I was
-looking at.
+## The Future of AI Engineering
 
-- [Column Developer Bank](https://column.com/)
-- [Composer no-code investment workflows](https://www.composer.trade/)
-- [Alpaca algotrading](https://alpaca.markets/)
-- [Bare Metal Bank Increase](https://increase.com/)
+The field of AI engineering is evolving rapidly, with emerging trends such as:
 
-The other idea I was thinking about is what is the actual technology that is at
-the backbones of the US or current world financial system. How does the stock
-exchange work? I know how a lot of decentralized or centralized exchanges in the
-web3 world work, but I don't fully understand the current stock exchange. If
-it's an exchange why I can trade on it directly? Wanted to frame this as if I
-was starting a new country how would I build a financial system.
+- **AutoML**: Automating the process of model selection and hyperparameter tuning.
+- **Edge AI**: Deploying AI models on edge devices for real-time processing.
+- **AI Ethics**: Developing frameworks for ethical AI development and deployment.
+- **Interdisciplinary Applications**: Combining AI with fields like biology, physics, and art to solve complex problems.
 
-- [Electronic Data Interchange](https://en.wikipedia.org/wiki/Electronic_data_interchange)
-- [Fednow](https://www.frbservices.org/financial-services/fednow)
+---
 
-## Climate
+## Conclusion
 
-How is technology being leveraged to help with climate change. I've seen a lot of different
-projects around tokenizing carbon credits, carbon sink technology, advocacy, but want to get more of an
-understanding of the landscape, and the current impact it is having.
+AI models, particularly in computer vision, have transformed industries and opened up new possibilities. To become a proficient AI engineer, you must master a diverse set of topics, from mathematics and programming to machine learning and ethics. By staying updated on advancements and honing your skills, you can drive innovation and create impactful solutions for the future.
 
-Some links I'm looking at
-
-- [Climatebase](https://climatebase.org/) — list of companies and jobs in the climate space
-- [Crypto Climate Accord](https://cryptoclimate.org/accord/) — A sorta manifesto about how web3 companies can help with the climate crisis
-- [Climate Collective](https://climatecollective.org/) — Another (rival?) group of web3 organizations trying to help curtail the climate crisis.
+Whether you're just starting your journey or looking to deepen your expertise, the world of AI offers endless opportunities to learn, grow, and make a difference. Happy coding!
