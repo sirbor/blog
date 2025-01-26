@@ -1,6 +1,6 @@
 ---
 title: Artificial Intelligence
-description:
+description: Master the essential topics—mathematics, programming, machine learning, deep learning, NLP, computer vision, and ethics—to become a skilled AI engineer and build innovative AI solutions that transform industries.
 ---
 
 # The Ultimate Guide to Becoming an AI Engineer: Key Topics to Master
