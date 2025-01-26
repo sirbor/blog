@@ -30,7 +30,7 @@ There are a few different types of things I write and keep track of here
 
 [[garden | Artificial Intelligence]] — where I explore AI advancements and applications.
 
-[[posts | Technical Reports]] — featuring detailed analyses and research findings.
+[[posts | Posts]] — featuring detailed analyses and research findings.
 
 [[projects | Projects]] — showcasing hands-on work and creative endeavors.
 
