@@ -10,7 +10,7 @@ I am a data engineer and technical writer with a strong focus on Artificial Inte
 
 - AI/ML
 - Java, C/C++, Python, Go
-- AWS
+- AWS, Azure , Google Cloud
 - SQL, GraphQL, REST APIs
 - Docker, Linux
 - React, Node.js, Next.js, Django, Flask
