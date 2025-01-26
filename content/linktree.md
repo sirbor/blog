@@ -10,6 +10,6 @@ date: 2024-06-06
 - [Website (You're Already Here!)](https://dominicbor.me)
 - [GitHub](https://github.com/sirbor)
 - [Good Reads](https://www.goodreads.com/0x_bor)
-- [Discord Community](https://discord.gg/sirbor)
+- [Discord Community](https://discord.gg/7gAfDzxj)
 - [GitHub](https://github.com/sirbor)
 - [Blog Repository](https://github.com/sirbor/blog)
