@@ -15,7 +15,7 @@ const config: QuartzConfig = {
       provider: "postHog",
     },
     locale: "en-US",
-    baseUrl: "https://dominicbor.me",
+    baseUrl: "dominicbor.me",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
